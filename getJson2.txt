@@ -1,0 +1,50 @@
+"features": [{
+      "type": "Feature",
+      "properties": {
+        "locationName": "Temasek Hall",
+        "locationType": "building",
+        "faculty": "",
+        "rooms": [
+          "Temasek Hall"
+        ],
+        "edgeList": {},
+        "locationImageUrl": ""
+      },
+      "geometry": {
+        "coordinates": [
+          103.771335,
+          1.292726
+        ],
+        "type": "Point"
+      },
+      "id": "0016da41a36a430ac3a5fa76cbfa5f92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "MD11",
+        "locationType": "building",
+        "faculty": "",
+        "rooms": [
+          "Centre for Biomedical Ethics",
+          "Department of Pharmacology",
+          "MD11",
+          "National University Medical Institutes",
+          "School of Medicine (Dean's Office)",
+          "Starbucks (MD11)"
+        ],
+        "edgeList": {},
+        "locationImageUrl": ""
+      },
+      "geometry": {
+        "coordinates": [
+          103.781802,
+          1.296069
+        ],
+        "type": "Point"
+      },
+      "id": "0029ae3ce7d5d9877975009a10ddb4de"
+    }
+    ],
+  "type": "FeatureCollection"
+}
