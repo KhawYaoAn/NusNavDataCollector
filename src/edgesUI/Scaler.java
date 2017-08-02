@@ -25,6 +25,15 @@ public class Scaler {
 	static double range = -1; 
 	//Scale is for new system. scale = canvass_size/range; 
 	static double scale = 1; 
+	
+	//for zoom in and out function
+	static double resize = 1; 
+	static double originalX = 0; 
+	static double originalY = 0; 
+	static double xCenter = 0; 
+	static double yCenter = 0; 
+	static int imageWidth = -1; 
+	static int imageHeight = -1; 
 
 
 	private static void inputPoint(String fileName){
@@ -141,30 +150,70 @@ public class Scaler {
 	 * @return
 	 */
 	public static Point scaleToDisplay(Point point, boolean toMaintain){
-		if(toMaintain){
+		//if(toMaintain){
 			double x = (point.getLong() - minLong)*CANVASS_SIZE/range; 
 			double y = (point.getLat() - minLat)*CANVASS_SIZE/range; 
-			return(new Point(x, y, point.getTime()));
-		} else {
+			Point tempPoint = new Point(x, y); 
+			Point zoomPoint = zoomPoint(tempPoint);
+			return(new Point(zoomPoint.getLong(), zoomPoint.getLat(), point.getTime()));
+		/*} else {
 			double x = (point.getLong() - minLong)*CANVASS_SIZE/range; 
 			double y = (point.getLat() - minLat)*CANVASS_SIZE/range; 
 			point.set(x, y);
 			return point; 
-		}
+		}*/
 	}
+
 
 	public static Point scaleToDisplay(Point point){
 		return scaleToDisplay(point, true);
 	}
 
 	public static Point scaleToActualGPS(Point point){
-		double x = point.getLong()*(range/CANVASS_SIZE) + minLong; 
-		double y = point.getLat()*(range/CANVASS_SIZE) + minLat; 
+		Point tempPoint = zoomToOriginal(point);
+		double x = tempPoint.getLong()*(range/CANVASS_SIZE) + minLong; 
+		double y = tempPoint.getLat()*(range/CANVASS_SIZE) + minLat; 
 		return(new Point(x, y, point.getTime()));
 	}
-	public static void showPoint(Point point){
 
+	
+	/**
+	 * 
+	 * @param resize
+	 * @param zoomPoint coordinates in display units, not GPS coordinates. 
+	 */
+	public static void resize(double resize, Point zoomPoint){
+		double scalingFactor = resize/Scaler.resize; 
+		double oldX = Scaler.xCenter; 
+		double oldY = Scaler.yCenter; 
+		double newX = (oldX - zoomPoint.getLong())*scalingFactor + zoomPoint.getLong(); 
+		double newY = (oldY - zoomPoint.getLat())*scalingFactor + zoomPoint.getLat(); 
+		
+		Scaler.xCenter = newX; 
+		Scaler.yCenter = newY; 
+		Scaler.resize = resize; 
 	}
+	
+	public static Point zoomPoint(Point point){
+		double x = point.getLong(); 
+		double y = point.getLat(); 
+		double newX = (x - Scaler.originalX)*Scaler.resize + Scaler.xCenter; 
+		double newY = (y - Scaler.originalY)*Scaler.resize + Scaler.yCenter;
+		return new Point(newX, newY);
+	}
+	
+	public static Point zoomToOriginal(Point point){
+		double x = point.getLong(); 
+		double y = point.getLat(); 
+		double xNew = (x - xCenter)/Scaler.resize + originalX; 
+		double yNew = (y - yCenter)/Scaler.resize + originalY; 
+		return new Point(xNew, yNew);
+	}
+	
+	public static void prepareZoomCanvass(String imageFile){
+		StdDraw.picture(xCenter, yCenter, imageFile, imageWidth*resize, imageHeight*resize); 
+	}
+	
 	/**
 	 * This method set provide the scaling for converting
 	 * coordinates in to dimensions that fit the display units. 
@@ -186,6 +235,14 @@ public class Scaler {
 				StdDraw.picture(330, 380, "NusMedium.png"); 
 			} 
 			StdDraw.picture(330, 380, "NusMedium.png"); 
+			originalX = 330; 
+			originalY = 380; 
+			xCenter = 330; 
+			yCenter = 380;
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
+			
 			minLong = 103.769168;
 			minLat = 1.288457; 
 			range = 1.0;
@@ -198,6 +255,13 @@ public class Scaler {
 				StdDraw.picture(210, 300, "NusSmall.png"); 
 			}
 			StdDraw.picture(210, 300, "NusSmall.png"); 
+			xCenter = 210; 
+			yCenter = 300; 
+			originalX = 210; 
+			originalY = 300; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
 			minLong = 103.767768;
 			minLat = 1.286707; 
 			range = 1.0;
@@ -212,6 +276,13 @@ public class Scaler {
 				StdDraw.picture(650, 400, "NusLarge.png");
 			}
 			StdDraw.picture(650, 400, "NusLarge.png");
+			xCenter = 650; 
+			yCenter = 400; 
+			originalX = 650; 
+			originalY = 400; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
 			minLong = 103.766000;
 			minLat = 1.28925;
 			range = 1.0;
@@ -225,6 +296,13 @@ public class Scaler {
 				StdDraw.picture(700, 300, "SingaporeLarge.png"); 
 			}
 			StdDraw.picture(700, 300, "SingaporeLarge.png"); 
+			xCenter = 700; 
+			yCenter = 300;	
+			originalX = 700; 
+			originalY = 300; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
 			minLong = 103.62;
 			minLat = 1.257;
 			range = 0.014426080324795976;
@@ -240,6 +318,13 @@ public class Scaler {
 				StdDraw.picture(270, 200, imageFile); 
 			}
 			StdDraw.picture(270, 200, imageFile); 
+			originalX = 270; 
+			originalY = 200; 
+			xCenter = 270; 
+			yCenter = 200; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
 			minLong = 103.605;
 			minLat = 1.2;
 			range = 0.014426080324795976;
@@ -258,6 +343,13 @@ public class Scaler {
 
 			//String fileName = "A2.txt";
 			//prepareCanvass("NusLarge.png", true);
+			xCenter = 650; 
+			yCenter = 342; 
+			originalX = 650; 
+			originalY = 342; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
 			Scaler.minLong = 103.768554;
 			Scaler.minLat = 1.30309;
 			Scaler.range = 1;
@@ -271,6 +363,14 @@ public class Scaler {
 			}
 			StdDraw.picture(330, 380, "FASS.png"); 
 
+			xCenter = 330; 
+			yCenter = 380; 
+			originalX = 330; 
+			originalY = 380; 
+
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
 			minLong = 103.770547;
 			minLat = 1.293465;
 			range = 1.0;
@@ -283,7 +383,12 @@ public class Scaler {
 				StdDraw.setXscale(0, 1000);
 			}
 			StdDraw.picture(330, 380, "FOE.png"); 
-
+			xCenter = 330; 
+			yCenter = 380; 
+			originalX = 330; 
+			originalY = 380; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
 
 			minLong = 103.770063;
 			minLat = 1.297050;
@@ -298,8 +403,13 @@ public class Scaler {
 				StdDraw.setXscale(0, 1000);
 			}
 			StdDraw.picture(330, 380, "FOESat.png"); 
-
-
+			xCenter = 330; 
+			yCenter = 380; 
+			originalX = 330; 
+			originalY = 380; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
+			
 			minLong = 103.770063;
 			minLat = 1.297050;
 			range = 1.0;
@@ -325,7 +435,12 @@ public class Scaler {
 			}
 			
 			StdDraw.picture(330, 380, "FoeSmall.png"); 
-
+			xCenter = 330; 
+			yCenter = 380; 
+			originalX = 330; 
+			originalY = 380; 
+			imageWidth = 1440; 
+			imageHeight = 900; 
 
 			minLong = 103.769878;
 			minLat = 1.295937;

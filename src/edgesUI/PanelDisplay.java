@@ -18,6 +18,8 @@ public class PanelDisplay {
 		int[] numList = {9,10,11};		
 		UserInterface.setClickColor();
 		UserInterface.highlightBox(numList);
+		UserInterface.colorVertical(12, "Zoom in");
+		UserInterface.colorVertical(13, "Zoom out");
 	}
 
 	public static void donePanel(){

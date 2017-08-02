@@ -274,7 +274,8 @@ public class UserInterface {
 	 */
 	public static void UIreset(){
 		functionStorage(); 
-		Scaler.prepareCanvass(imageFile, false);
+		Scaler.prepareZoomCanvass(imageFile);
+		//Scaler.prepareCanvass(imageFile, false);
 		PanelDisplay.refreshPanel(); 
 		PointEdgeUI.displayWeb(5);
 		setBrightColor(); 

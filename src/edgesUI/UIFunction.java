@@ -332,9 +332,8 @@ public class UIFunction {
 			//Color the three possible function; 
 			UserInterface.UIreset(); 
 			PanelDisplay.homePagePanel(); 
-
 			int function = UserInterface.functionListener(); 	
-			while(function!= 9 && function != 10 && function != 11){
+			while(function!= 9 && function != 10 && function != 11 && function != 12 && function != 13){
 				function = UserInterface.functionListener(); 
 			}
 
@@ -348,6 +347,21 @@ public class UIFunction {
 
 			if(function == 11){ //User want to select vertex; 
 				selectVertex(); 
+			}
+			if(function == 12){
+				//please select a point; 
+				PanelDisplay.refreshPanel(); 
+				UserInterface.setBrightColor(); 
+				UserInterface.colorHorizontalOne(1, "Select A Point");
+				Point point = Display.listener(100, false);
+				Scaler.resize(Scaler.resize*1.5, point);
+			}
+			if(function == 13){
+				PanelDisplay.refreshPanel(); 
+				UserInterface.setBrightColor(); 
+				UserInterface.colorHorizontalOne(1, "Select A Point");
+				Point point = Display.listener(100, false);
+				Scaler.resize(Scaler.resize*(1/1.5), point);
 			}
 		}
 	}
