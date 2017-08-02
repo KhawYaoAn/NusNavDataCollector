@@ -8,7 +8,7 @@ public class PanelDisplay {
 		UserInterface.createHorizontalTwo(); 
 		UserInterface.createVertical(); 
 	}
-	
+
 	public static void resetVertical(){
 		UserInterface.setDefaultColor();
 		UserInterface.createVertical(); 
@@ -57,7 +57,7 @@ public class PanelDisplay {
 		refreshPanel(); 
 		PointEdgeUI.displayVertex(vertexIndex);
 		updateVertexPanel(vertexIndex); 
-		
+
 		UserInterface.setClickColor(); 
 		UserInterface.colorVertical(12, null);
 		UserInterface.colorVertical(13, null);
@@ -122,7 +122,7 @@ public class PanelDisplay {
 		UserInterface.setBrightColor(); 
 		UserInterface.colorHorizontalTwo(1, "Select an edge");
 	}
-	
+
 	//pre function 19
 	public static void deleteEdgePanel(int vertexIndex, int edgeIndex, Edge edge){
 		PanelDisplay.resetVertical(); 
@@ -142,7 +142,11 @@ public class PanelDisplay {
 		Point destination = GeoJsonList.getPoint(edgeIndex);
 		StdDraw.setPenColor(StdDraw.RED);
 		StdDraw.setPenRadius(0.008); 
-		Display.drawLine(source, destination);
+		if(edge.smoothRoute.size() == 0){
+			Display.drawLine(source, destination);
+		}else{
+			PointEdgeUI.showRoute(vertexIndex, edgeIndex, 3);
+		}
 		UserInterface.setDisplayColor(); 
 		//UserInterface.colorVertical(15, "destination/"+GeoJsonList.getName(edgeIndex));
 		//UserInterface.colorVertical(17, "source/"+GeoJsonList.getName(vertexIndex));
@@ -153,8 +157,26 @@ public class PanelDisplay {
 		UserInterface.colorVertical(13, null); 
 		UserInterface.colorVertical(17, null);
 		UserInterface.colorVertical(19, null);
+		UserInterface.colorVertical(20, null);
 		System.out.println("PanelDisplay.selectEdgePanel.end");
 	}
+
+	//function 20 display. 
+	public static void editSmoothRoutePanel(int sourceIndex, int destIndex, Edge edge, Edge otherEdge,
+			boolean noRoute){
+		refreshPanel(); 
+		updateEdgePanel(edge);
+		updateVertexPanel(sourceIndex);
+		UserInterface.setClickColor();
+		UserInterface.colorVertical(13, null); 
+		UserInterface.colorVertical(14, "14.Add/Point");//click a point to add after
+		UserInterface.colorVertical(17, "17.return/toEdge");
+		if(!noRoute){
+			UserInterface.colorVertical(16, "16.delete/Point");//ask user to select a point to delete;
+			UserInterface.colorVertical(15, "15.Move/Point");//ask user to select point to move
+		}
+	}
+
 
 	public static void addEdgeDetail(Edge edge, int vertexIndex, int otherIndex){
 		//add detail for display
@@ -233,10 +255,10 @@ public class PanelDisplay {
 			UserInterface.verticalDisplay[9] = "9.origin/"+edge.origin;
 		}
 	}
-	
+
 	public static void restartEdgePanel(){
 		UserInterface.restartEdgePanel(); 
 	}
-	
-	
+
+
 }

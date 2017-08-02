@@ -229,7 +229,7 @@ public class UIFunction {
 		Display.showPoint(edgePoint, 10, 15);
 		PanelDisplay.isSatisfied(17, 18);
 		PanelDisplay.updateEdgePanel(edge);
-		
+
 		while(function != 13 && function != 17 && function != 18){
 			function = UserInterface.functionListener();
 		}
@@ -248,7 +248,7 @@ public class UIFunction {
 	//function 19
 	public static void deleteEdge(int sourceIndex, int destIndex, Edge edge, Edge otherEdge){
 		PanelDisplay.deleteEdgePanel(sourceIndex, destIndex, edge); 
-		
+
 		int function = -1; 
 		while(function != 18 && function != 19){
 			System.out.println("Wrong function");
@@ -256,7 +256,25 @@ public class UIFunction {
 		}
 		if(function == 18){ //confirmDelete
 			//proceed to below; 
-			
+			//ignore edge; 
+			//just delete, don't fucking ask; 
+			ArrayList<Edge> sourceEdges = GeoJsonList.get(sourceIndex).getEdges(); 
+			ArrayList<Edge> destEdges = GeoJsonList.get(destIndex).getEdges(); 
+			for(int i = 0; i < sourceEdges.size(); i++){
+				Edge edge2 = sourceEdges.get(i);
+				if(edge2.name.equals(GeoJsonList.getName(destIndex))){
+					GeoJsonList.get(sourceIndex).properties.edgeList.remove(i);
+					i = destEdges.size() + 1;  //exit the for loop
+				}
+			}
+
+			for(int i = 0; i < destEdges.size(); i++){
+				Edge edge2 = destEdges.get(i);
+				if(edge2.name.equals(GeoJsonList.getName(sourceIndex))){
+					GeoJsonList.get(destIndex).properties.edgeList.remove(i);
+					i = destEdges.size() + 1; //exit the for loop
+				}
+			}
 		}
 		if(function == 19){ //abortDelete
 			UserInterface.setBrightColor(); 
@@ -264,31 +282,39 @@ public class UIFunction {
 			MoreFunction.selectEdge(sourceIndex, destIndex, edge, otherEdge); 
 			//UIFunction.deleteEdge(sourceIndex, destIndex, edge);
 		}
-		//ignore edge; 
-		//just delete, don't fucking ask; 
-		ArrayList<Edge> sourceEdges = GeoJsonList.get(sourceIndex).getEdges(); 
-		ArrayList<Edge> destEdges = GeoJsonList.get(destIndex).getEdges(); 
-		for(int i = 0; i < sourceEdges.size(); i++){
-			Edge edge2 = sourceEdges.get(i);
-			if(edge2.name.equals(GeoJsonList.getName(destIndex))){
-				GeoJsonList.get(sourceIndex).properties.edgeList.remove(i);
-				i = destEdges.size() + 1;  //exit the for loop
-			}
-		}
-
-		for(int i = 0; i < destEdges.size(); i++){
-			Edge edge2 = destEdges.get(i);
-			if(edge2.name.equals(GeoJsonList.getName(sourceIndex))){
-				GeoJsonList.get(destIndex).properties.edgeList.remove(i);
-				i = destEdges.size() + 1; //exit the for loop
-			}
-		}
+		
 	}
 
 	//function 20 reach from selectEdge
-	public static void editEdge(int sourceIndex, int destIndex, Edge edge){
-		//highLight both 
-		//PanelDisplay.refreshPanel(); 
+	public static void editSmoothRoute(int sourceIndex, int destIndex, Edge edge, Edge otherEdge){
+		int function = -1; 
+		boolean noRoute = true; 
+		if(edge.smoothRoute.size() > 0){
+			noRoute = false; 
+		}
+		
+		PanelDisplay.editSmoothRoutePanel(sourceIndex, destIndex, edge, otherEdge, noRoute); 
+		while(function != 13 && function != 14 && (function != 15 || noRoute) && 
+				(function != 16 || noRoute) && function != 17){
+			System.out.println("Wrong function");
+			function = UserInterface.functionListener(); 
+		}
+		if(function == 13){ //confirmDelete
+			returnToOrigin(); 
+		}
+		if(function == 14){//create the array of point here. 
+			MoreFunction.smoothRouteAddPoint(sourceIndex, destIndex, edge, otherEdge);
+		}
+		if(function == 15){ // move point //disable if not possible
+			MoreFunction.smoothRouteMovePoint(sourceIndex, destIndex, edge, otherEdge);
+		}
+		if(function == 16){ //deletePoint //disable if not possible
+			MoreFunction.smoothRouteDeletePoint(sourceIndex, destIndex, edge, otherEdge);
+		}
+		if(function == 17){ //return to "selectEdge
+			MoreFunction.selectEdge(sourceIndex, destIndex, edge, otherEdge);
+		}
+
 	}
 
 
@@ -325,12 +351,12 @@ public class UIFunction {
 			}
 		}
 	}
-	
+
 	public static void main (String[] args){
-		String geoJsonFile = "getJson.txt";
+		String geoJsonFile = "abc.txt";
+		outputFileName = "abc.txt";
 		//String geoJsonFile = UIFunction.outputFileName;
-		String imageFile = "NusLarge.png";
+		String imageFile = "FoeSmall.png";
 		run(geoJsonFile, imageFile);
-		Display.showRoute("D1.txt");
 	}
 }

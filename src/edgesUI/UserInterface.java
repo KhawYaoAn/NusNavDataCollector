@@ -25,7 +25,7 @@ public class UserInterface {
 	private static Color outlineColor = StdDraw.RED; 
 	private static Color wordColor = StdDraw.WHITE; 
 
-	
+
 	public static void setDefaultColor(){
 		fillColor = StdDraw.BLACK; 
 		outlineColor = StdDraw.RED; 
@@ -33,7 +33,7 @@ public class UserInterface {
 		StdDraw.setPenColor(StdDraw.BLACK); 
 		StdDraw.setPenRadius();
 	}
-	
+
 	public static void setClickColor(){
 		fillColor = StdDraw.GREEN; 
 		outlineColor = StdDraw.RED; 
@@ -41,7 +41,7 @@ public class UserInterface {
 		StdDraw.setPenColor(StdDraw.BLACK);
 		StdDraw.setPenRadius();
 	}
-	
+
 	/**
 	 * Use only for the most important panel, such as 
 	 * a message panel. 
@@ -64,7 +64,7 @@ public class UserInterface {
 		StdDraw.setPenColor(StdDraw.BLACK);
 		StdDraw.setPenRadius();
 	}
-	
+
 	/**
 	 * i = 0 for the topMost box; 
 	 * @param i
@@ -165,7 +165,7 @@ public class UserInterface {
 			}	
 		}
 	}
-	
+
 	/**
 	 * identify the function clicked by the user. 
 	 * @return -1 if no function is being selected. return function number
@@ -173,6 +173,10 @@ public class UserInterface {
 	 */
 	public static int functionListener(){
 		Point point = Display.listener(500, false);
+		return functionListener(point, true);
+	}
+
+	public static int functionListener(Point point, boolean toLoop){
 		double x = point.getLong(); 
 		double y = point.getLat();
 		int functionNumber = -1; 
@@ -209,9 +213,11 @@ public class UserInterface {
 
 		if(functionNumber < 0){
 			System.out.println("no function chosen, do again"); 
-			return functionListener(); 
+			if(toLoop){
+				return functionListener(); 
+			}
 		}
-		return functionNumber; 
+		return functionNumber;
 	}
 
 	public static void restartEdgePanel(){
@@ -226,7 +232,7 @@ public class UserInterface {
 		UserInterface.verticalDisplay[8] = "8.ImageLink:/NA";
 		UserInterface.verticalDisplay[9] = "9.Done/ouput.txt";
 	}
-	
+
 	private static void functionStorage(){
 		UserInterface.verticalDisplay = new String[21];
 		UserInterface.verticalDisplay[0] = "0.name:/NA";
@@ -249,7 +255,7 @@ public class UserInterface {
 		UserInterface.verticalDisplay[17] = "17.Add/Edge";
 		UserInterface.verticalDisplay[18] = "18.Select/Edge";
 		UserInterface.verticalDisplay[19] = "19.Delete/Edge";
-		UserInterface.verticalDisplay[20] = "20.Edit/Edge";
+		UserInterface.verticalDisplay[20] = "20.Edit/SmoothRoute";
 
 		UserInterface.horizontalDisplayOne = new String[2];
 		UserInterface.horizontalDisplayOne[0] = "0.Current Vertex = Name";
@@ -260,7 +266,7 @@ public class UserInterface {
 		UserInterface.horizontalDisplayTwo[1] = "2.Yellow When Done";
 
 	}
-	
+
 	/**
 	 * Reset everything to original state
 	 * Panel that display's specific instance's info will show giberish
@@ -291,12 +297,12 @@ public class UserInterface {
 		verticalBoxHeight = frameHeight * TOP_BORDER; 
 		//reset();
 	}
-	
+
 	public static void run(String geoJsonFile, String imageFile){
 		initialiseUI(geoJsonFile, imageFile);
 		UIreset(); 
 	}
-	
+
 	public void run(){
 		String geoJsonFile = "getJson.txt";
 		String imageFile = "FoeSmall.png";

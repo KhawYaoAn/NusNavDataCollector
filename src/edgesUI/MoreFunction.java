@@ -148,7 +148,8 @@ public class MoreFunction {
 	public static void selectEdge(int sourceIndex, int destIndex, Edge edge, Edge otherEdge){
 		PanelDisplay.selectEdgePanel(sourceIndex, destIndex, edge);
 		int function = -1; 
-		while(function != 3 && function != 6 && function != 13 && function != 17 && function != 19){
+		while(function != 3 && function != 6 && function != 13 &&
+				function != 17 && function != 19 && function != 20){
 			function = UserInterface.functionListener(); 
 		}
 
@@ -180,7 +181,7 @@ public class MoreFunction {
 		if(function == 13){
 			UIFunction.returnToOrigin(); 
 		}
-		
+
 		if(function == 17){
 			UIFunction.addEdge(sourceIndex);
 		}
@@ -188,9 +189,149 @@ public class MoreFunction {
 		if(function == 19){ //delete edge
 			UIFunction.deleteEdge(sourceIndex, destIndex, edge, otherEdge); 
 		}
+		if(function == 20){
+			UIFunction.editSmoothRoute(sourceIndex, destIndex, edge, otherEdge);
+		}
 	}
 
+	public static void smoothRouteAddPoint(int sourceIndex, int destIndex, Edge edge, Edge otherEdge){
+		//dig out the route list; 
+		PanelDisplay.refreshPanel(); 
+		PanelDisplay.updateEdgePanel(edge);
+		PanelDisplay.updateVertexPanel(sourceIndex);
+		Point sourcePoint = GeoJsonList.getPoint(sourceIndex);
+		ArrayList<Point> routeList = edge.smoothRoute; 
+		int selectedIndex = -1; 
+		if(routeList == null){
+			selectedIndex = -1;
+		}else{
+			if(routeList.size() == 0){
+				selectedIndex = -1; 
+			}else{
+				UserInterface.setBrightColor(); 
+				UserInterface.colorHorizontalTwo(1, "please click one of the route's point"); 
+				Point userPoint = Display.listener(300);
+				selectedIndex = smoothRouteGetNearestPoint(userPoint, routeList);
+			}
+		}
+		UserInterface.setBrightColor(); 
+		UserInterface.colorHorizontalTwo(1, "please click add your pointts"); 
+		UserInterface.setClickColor();
+		UserInterface.colorVertical(14, "stop/adding");
+		boolean toExit = false; 
+		int currIndex = selectedIndex + 1; 
+		System.out.println("Entering while loop...");
+		while(!toExit){
+			System.out.println("What the hell");
+			Point newPoint = Display.listener(200, false); 
+			if(UserInterface.functionListener(newPoint, false) == 14){
+				toExit = true; 
+				System.out.println("newPoint == 14");
+			}else{
+				newPoint = Scaler.scaleToActualGPS(newPoint);
+				System.out.println("newPoint = "+newPoint.getLat()+", "+newPoint.getLong());
+				StdDraw.setPenColor(StdDraw.RED);
+				Display.showPoint(newPoint, 0, 3);
+				routeList.add(currIndex, newPoint);
+				StdDraw.setPenColor(StdDraw.RED); 
+				if(currIndex > 0){
+					Display.drawLine(routeList.get(currIndex - 1), routeList.get(currIndex));
+				}else{
+					Display.drawLine(sourcePoint, newPoint);
+				}
+				currIndex++;
+			}
+		}		
+		otherEdge.smoothRoute = reverseRouteList(routeList);
+		MoreFunction.selectEdge(sourceIndex, destIndex, edge, otherEdge);
+	}
 
+	public static void smoothRouteMovePoint(int sourceIndex, int destIndex, Edge edge, Edge otherEdge){
+		PanelDisplay.refreshPanel(); 
+		PanelDisplay.updateEdgePanel(edge);
+		PanelDisplay.updateVertexPanel(sourceIndex);
+		Point sourcePoint = GeoJsonList.getPoint(sourceIndex);
+		ArrayList<Point> routeList = edge.smoothRoute; 
+
+		UserInterface.setBrightColor(); 
+		UserInterface.colorHorizontalTwo(1, "please click one of the route's point"); 
+		Point userPoint = Display.listener(300);
+		int selectedIndex = smoothRouteGetNearestPoint(userPoint, routeList);
+		Point selectedPoint = routeList.get(selectedIndex);
+		StdDraw.setPenColor(StdDraw.GREEN);
+		Display.showPoint(selectedPoint, 3, 6);
+		UserInterface.colorHorizontalTwo(1, "please select new point"); 
+		UserInterface.colorVertical(15, "abort");
+		Point newPoint = Display.listener(200, false); 
+		
+		if(UserInterface.functionListener(newPoint, false) == 15){
+			MoreFunction.selectEdge(sourceIndex, destIndex, edge, otherEdge);
+		}else{
+			newPoint = Scaler.scaleToActualGPS(newPoint);
+			System.out.println("newPoint = "+newPoint.getLat()+", "+newPoint.getLong());
+			StdDraw.setPenColor(StdDraw.ORANGE);
+			Display.showPoint(newPoint, 0, 3);
+			routeList.remove(selectedIndex);
+			routeList.add(selectedIndex, newPoint);
+			StdDraw.setPenColor(StdDraw.ORANGE); 
+			if(selectedIndex > 0){
+				Display.drawLine(routeList.get(selectedIndex - 1), routeList.get(selectedIndex));
+			}else{
+				Display.drawLine(sourcePoint, newPoint);
+			}
+		}
+		otherEdge.smoothRoute = reverseRouteList(routeList);
+		MoreFunction.selectEdge(sourceIndex, destIndex, edge, otherEdge);
+	}
+
+	public static void smoothRouteDeletePoint(int sourceIndex, int destIndex, Edge edge, Edge other){
+		PanelDisplay.refreshPanel(); 
+		PanelDisplay.updateEdgePanel(edge);
+		PanelDisplay.updateVertexPanel(sourceIndex);
+		ArrayList<Point> routeList = edge.smoothRoute; 
+
+		UserInterface.setBrightColor(); 
+		UserInterface.colorHorizontalTwo(1, "please click one of the route's point"); 
+		Point userPoint = Display.listener(300);
+		int selectedIndex = smoothRouteGetNearestPoint(userPoint, routeList);
+		Point selectedPoint = routeList.get(selectedIndex);
+		StdDraw.setPenColor(StdDraw.GREEN);
+		Display.showPoint(selectedPoint, 3, 6);
+		UserInterface.colorVertical(15, "confirm");
+		UserInterface.colorVertical(16, "abort");
+		int function = UserInterface.functionListener();
+		while(function != 15 && function != 16){
+			function = UserInterface.functionListener(); 
+		}
+		if(function == 15){ //confirm the deleter
+			routeList.remove(selectedIndex);
+		}else{ //abort the delete, aka do nothing here. 
+			
+		}
+		other.smoothRoute = reverseRouteList(routeList);
+		MoreFunction.selectEdge(sourceIndex, destIndex, edge, other);
+	}
+
+	public static ArrayList<Point> reverseRouteList(ArrayList<Point> routeList){
+		ArrayList<Point> reverseList = new ArrayList<Point>(); 
+		for(int i = 0; i < routeList.size(); i++){
+			reverseList.add(routeList.get(routeList.size() - i - 1));
+		}
+		return reverseList; 
+	}
+
+	public static int smoothRouteGetNearestPoint(Point point, ArrayList<Point> pointList){
+		double minDistance = Double.MAX_VALUE; 
+		int index = -1; 
+		for(int i = 0; i < pointList.size(); i++){
+			double currDistance = point.meterDistance(pointList.get(i));
+			if(currDistance < minDistance){
+				minDistance = currDistance; 
+				index = i; 
+			}
+		}
+		return index; 
+	}
 
 
 
@@ -424,7 +565,7 @@ public class MoreFunction {
 		}
 
 	}
-	
+
 	public static Edge getEdgeByName(int vertexIndex, String edgeName){
 		ArrayList<Edge> edgeList = GeoJsonList.get(vertexIndex).getEdges();
 		for(int i = 0; i < edgeList.size(); i++){

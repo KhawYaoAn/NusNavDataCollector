@@ -104,9 +104,6 @@ public class GeoJson implements Comparable<GeoJson>{
 	
 	
 	
-	
-	
-	
 	public boolean hasEdge(int otherIndex){
 		return hasEdge(GeoJsonList.get(otherIndex).getName());
 	}

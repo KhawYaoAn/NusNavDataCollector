@@ -164,6 +164,7 @@ public class GeoJsonReader {
 						geoJson.properties.locationImageUrl = currLine.split("\"")[3];
 					}
 					readPropertiesCounter++; 
+					
 				}
 			}//end of while(readPropertiesCounter < 6) while Loop
 		}catch(IOException e){
@@ -241,6 +242,29 @@ public class GeoJsonReader {
 				if(currLine.contains("imageLinks")){
 					edge.imageLinks = currLine.split(":")[1];
 					readEdgeCounter++; 
+					if(currLine.contains(",")){ //"imageLinks": [],
+						//contains smooth curve
+						currLine = buff.readLine();  // “smoothCurve”:[
+						if(currLine.contains("[]")){ // "smoothCurve":[]
+							//do nothing; no smoothCurve found
+						}else{ //"smoothCurve":[
+							boolean toContinue = true; 
+							while(toContinue){
+								currLine = buff.readLine(); //{1.111, 100.1111},
+								if(currLine.contains("]")){
+									toContinue = false; 
+								}
+								String sLat = currLine.split(",")[0];
+								String sLat2 = sLat.split("\\{")[1];
+								double latitude = Double.parseDouble(sLat2);
+								String sLong = currLine.split(",")[1].trim();
+								String sLong2 = sLong.split("\\}")[0];
+								double longitude = Double.parseDouble(sLong2);
+								Point tempPoint = new Point(longitude, latitude);
+								edge.smoothRoute.add(tempPoint);
+							}
+						}
+					}
 				}
 				currLine = buff.readLine(); //end at } as per line 317;
 				//System.out.println(currLine); 
@@ -295,7 +319,23 @@ public class GeoJsonReader {
 						+"\"shelterWeight\": "+edge.shelterWeight+",\n"
 						+"\"shelterMultiplier\": "+edge.shelterMultiplier+",\n"
 						+"\"directions\": "+edge.directions+",\n"
-						+"\"imageLinks\": "+edge.imageLinks+"\n";
+						+"\"imageLinks\": "+edge.imageLinks+",\n";
+				if(edge.smoothRoute.size() == 0){
+					line = line + "\"smoothRoute\": []\n";
+				}else{
+					line = line + "\"smoothRoute\": [\n";
+					for(int j = 0; j < edge.smoothRoute.size(); j++){
+						String longitude = Double.toString(edge.smoothRoute.get(j).getLong());
+						String latitude = Double.toString(edge.smoothRoute.get(j).getLat());
+						if(j == edge.smoothRoute.size() - 1){
+							//{3.333, 333.333}]
+							line = line + "{" + latitude + ", " + longitude + "}]\n" ;
+						}else{
+							//{1.111, 100.1111},
+							line = line + "{" + latitude + ", " + longitude + "},\n" ;
+						}
+					}
+				}
 				if(i < edgeList.size() - 1){
 					line = line + "},\n"; 
 				}else{

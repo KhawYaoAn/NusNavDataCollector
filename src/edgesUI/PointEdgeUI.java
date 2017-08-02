@@ -42,21 +42,59 @@ public class PointEdgeUI {
 
 		//displayEdges(i); 
 		ArrayList<Edge> edgeList = currGeoJson.getEdges(); 
-		for(int j = 0; j < edgeList.size(); j++){
-			int index = GeoJsonList.getVertexIndexByName(edgeList.get(j).getName()); 
-			Point edgeVertex = GeoJsonList.get(index).getPoint(); 
-			Display.drawLine(currVertex, edgeVertex);
+		for(int i = 0; i < edgeList.size(); i++){
+			int edgeIndex = GeoJsonList.getVertexIndexByName(edgeList.get(i).getName()); 
+			Point edgeVertex = GeoJsonList.get(edgeIndex).getPoint();
+
 			if(radius > 0){
 				Display.showTarget(edgeVertex, radius);
 			}
+			
+			PointEdgeUI.showRoute(vertexIndex, edgeIndex, 2); 
 		}
 	}
-
+	
+	//Draw the "smoothRoute"
+	public static void showRoute(int sourceIndex, int destIndex, double radius){
+		GeoJson currGeoJson = GeoJsonList.get(sourceIndex);
+		Point sourcePoint = currGeoJson.getPoint();
+		Point destPoint = GeoJsonList.getPoint(destIndex);
+		ArrayList<Edge> edgeList = currGeoJson.getEdges(); 
+		ArrayList<Point> routeList = null; 
+		boolean isFound = false; 
+		for(int i = 0; i < edgeList.size(); i++){
+			int tempDestIndex = GeoJsonList.getVertexIndexByName(edgeList.get(i).getName()); 
+			if(tempDestIndex == destIndex){//match found, if not something is wrong; 
+				isFound = true; 
+				routeList = edgeList.get(i).smoothRoute; 
+			}
+		}
+		if(isFound == false){
+			System.out.println("ERROR: PointEdgeUI.showRoute, not match found");
+			Display.drawLine(sourcePoint, destPoint);
+		}else{
+			if(routeList != null){
+				if(routeList.size() > 0){
+					Display.drawLine(sourcePoint, routeList.get(0));
+					Display.drawLine(routeList.get(routeList.size() - 1), destPoint);
+					for(int i = 0; i < routeList.size() - 1; i++){
+						Display.drawLine(routeList.get(i), routeList.get(i + 1));
+						Display.showPoint(routeList.get(i), 0, radius);
+					}
+				}else{
+					Display.drawLine(sourcePoint, destPoint);
+				}
+			}else{
+				Display.drawLine(sourcePoint, destPoint);
+			}
+		}
+	}
+	
 	public static void displayEdges(String vertexName, double radius){
 		int vertexIndex = GeoJsonList.getVertexIndexByName(vertexName);
 		displayEdges(vertexIndex, radius);
 	}
-	
+
 	public static void displayVertex(int vertexIndex){
 		StdDraw.setPenColor(StdDraw.BLUE); 
 		PointEdgeUI.showVertex(vertexIndex, 5, 10);

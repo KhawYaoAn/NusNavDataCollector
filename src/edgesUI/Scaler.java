@@ -290,6 +290,23 @@ public class Scaler {
 			range = 1.0;
 			CANVASS_SIZE = 204691;
 		}
+		
+		if(imageFile.equals("FOESat.png")){
+			if(prepareCanvass){
+				StdDraw.setCanvasSize(1000, 700);
+				StdDraw.setYscale(0, 700);
+				StdDraw.setXscale(0, 1000);
+			}
+			StdDraw.picture(330, 380, "FOESat.png"); 
+
+
+			minLong = 103.770063;
+			minLat = 1.297050;
+			range = 1.0;
+			CANVASS_SIZE = 204691;
+		} 
+		
+		
 		if(imageFile.equals("FoeSmall.png")){
 			/**StdDraw.setCanvasSize(1000, 700);
 			StdDraw.setYscale(0, 700);

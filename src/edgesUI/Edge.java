@@ -1,5 +1,7 @@
 package edgesUI;
 
+import java.util.ArrayList;
+
 public class Edge {
 	final double WALKING_SPEED = 100; //100 meter per seconds
 	String name = null;  //set by user; 
@@ -14,6 +16,8 @@ public class Edge {
 	
 	String origin = null; //set by me; no output
 	String[] propertyList = new String[10]; //set  by me; no output
+	ArrayList<Point> smoothRoute = new ArrayList<Point>();  //does not include the source and destination itself; 
+	
 	public Edge(){
 	}
 	
