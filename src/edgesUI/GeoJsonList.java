@@ -20,6 +20,13 @@ public class GeoJsonList {
 	public static void initialise(String fileName){
 		GeoJsonReader geoJsonReader = new GeoJsonReader(fileName);
 		jsonList = geoJsonReader.getJsonList(); 
+		//to update origin information; 
+		for(int i = 0; i < jsonList.size(); i++){
+			String origin = jsonList.get(i).properties.locationName; 
+			for(int j = 0; j < jsonList.get(i).properties.edgeList.size(); j++){
+				jsonList.get(i).properties.edgeList.get(j).origin = origin; 
+			}
+		}
 		isInitialized = true; 
 	}
 

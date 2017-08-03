@@ -178,7 +178,8 @@ public class GeoJsonReader {
 		}else{ //"edgeList": {
 			while(!currLine.trim().equals("}")){
 				readEdge(); 
-				edge.origin = geoJson.properties.locationName; 
+				//edge.origin = geoJson.properties.locationName; 
+				
 				geoJson.properties.edgeList.add(edge); //after currLine should be }, as in line 297.
 			}
 			//currLine has to be "}" here. 
@@ -459,9 +460,9 @@ public class GeoJsonReader {
 	}
 	
 	public static void main (String [] args){
-		GeoJsonReader jsonReader = new GeoJsonReader("getJson.txt"); 
-		ArrayList<GeoJson> jsonList = jsonReader.getJsonList(); 
-		System.out.println("jsonList.size() = "+jsonList.size()); 
-		GeoJsonReader.outTxt("bcd.txt", jsonList);
+		String fileName = "getJson.txt";
+		GeoJsonList.initialise(fileName);
+		System.out.println("jsonList.size() = "+GeoJsonList.jsonList.size()); 
+		GeoJsonReader.outTxt("bcd.txt", GeoJsonList.jsonList);
 	}
 }
