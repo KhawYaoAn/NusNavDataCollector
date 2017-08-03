@@ -255,10 +255,10 @@ public class GeoJsonReader {
 									toContinue = false; 
 								}
 								String sLat = currLine.split(",")[0];
-								String sLat2 = sLat.split("[")[1];
+								String sLat2 = sLat.split("\\[")[1];
 								double latitude = Double.parseDouble(sLat2);
 								String sLong = currLine.split(",")[1].trim();
-								String sLong2 = sLong.split("]")[0];
+								String sLong2 = sLong.split("\\]")[0];
 								double longitude = Double.parseDouble(sLong2);
 								Point tempPoint = new Point(longitude, latitude);
 								edge.smoothRoute.add(tempPoint);
