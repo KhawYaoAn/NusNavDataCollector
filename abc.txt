@@ -3150,27 +3150,6 @@ var geojson = {
 "directions": "Data yet to be collected",
 "imageLinks":  [],
 "smoothRoute": []
-},
-"name": {
-"time": 4.170647253663756,
-"distance": 417.0647253663756,
-"stairsDirection": 1.0,
-"stairsWeight": 417.0647253663756,
-"shelterWeight": 0.0,
-"shelterMultiplier": 0.0,
-"directions": Data yet to be collected,
-"imageLinks": [],
-"smoothRoute": [
-{1.3002394114285714, 103.7740036},
-{1.3004358685714286, 103.77423934857143},
-{1.3006912628571428, 103.77470102285714},
-{1.3008680742857142, 103.77506446857143},
-{1.3010645314285714, 103.77535915428572},
-{1.30123152, 103.77582082857144},
-{1.3013493942857142, 103.77614498285715},
-{1.3014083314285714, 103.77639055428573},
-{1.3015360285714286, 103.77659683428573},
-{1.3015654971428572, 103.77678346857144}]
 }
 },
 "locationImageUrl": ""
@@ -6257,39 +6236,6 @@ var geojson = {
 "type": "Point"
 },
 "id": "fd9f3481947c21d96688498e00c433ef"
-},
-{
-"type": "Feature",
-"properties": {
-"locationName": "name",
-"locationType": "building",
-"faculty": "",
-"rooms": [],
-"edgeList": {
-"Raffles Hall": {
-"time": 4.170647253663756,
-"distance": 417.0647253663756,
-"stairsDirection": 1.0,
-"stairsWeight": 417.0647253663756,
-"shelterWeight": 0.0,
-"shelterMultiplier": 0.0,
-"directions": Data yet to be collected,
-"imageLinks": [],
-"smoothRoute": [
-[1.3015654971428572, 103.77678346857144],
-[1.3002394114285714, 103.7740036]]
-}
-},
-"locationImageUrl": ""
-},
-"geometry": {
-"coordinates": [
-103.77717638285715,
-1.3015163828571428
-],
-"type": "Point"
-},
-"id": "ANY_RANDOM_NUMBER"
 }
 ],
 "type": "FeatureCollection"

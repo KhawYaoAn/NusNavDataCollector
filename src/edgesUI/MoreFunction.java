@@ -56,7 +56,7 @@ public class MoreFunction {
 		PanelDisplay.selectVertexPanel(vertexIndex); //update UI; 
 		System.out.println("here");
 		int function = -1; 
-		while(function < 12 || function > 16){ // 12 to 16 are the function of interest. 
+		while(function < 12 || function > 18){ // 12 to 16 are the function of interest. 
 			function = UserInterface.functionListener(); 
 		}
 		if(function == 12){  //deleteVertex
@@ -75,11 +75,11 @@ public class MoreFunction {
 		if(function == 16){
 			UIFunction.editVertexLocation(vertexIndex); 
 		}
-		if(function == 17){
-			//later
+		if(function == 17){ // add an edge 
+			UIFunction.addEdge(vertexIndex); 
 		}
-		if(function == 18){
-			//later
+		if(function == 18){ //select an edge
+			UIFunction.selectEdge(vertexIndex);
 		}
 	}
 

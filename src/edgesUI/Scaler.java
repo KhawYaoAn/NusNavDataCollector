@@ -25,7 +25,7 @@ public class Scaler {
 	static double range = -1; 
 	//Scale is for new system. scale = canvass_size/range; 
 	static double scale = 1; 
-	
+
 	//for zoom in and out function
 	static double resize = 1; 
 	static double originalX = 0; 
@@ -151,11 +151,11 @@ public class Scaler {
 	 */
 	public static Point scaleToDisplay(Point point, boolean toMaintain){
 		//if(toMaintain){
-			double x = (point.getLong() - minLong)*CANVASS_SIZE/range; 
-			double y = (point.getLat() - minLat)*CANVASS_SIZE/range; 
-			Point tempPoint = new Point(x, y); 
-			Point zoomPoint = zoomPoint(tempPoint);
-			return(new Point(zoomPoint.getLong(), zoomPoint.getLat(), point.getTime()));
+		double x = (point.getLong() - minLong)*CANVASS_SIZE/range; 
+		double y = (point.getLat() - minLat)*CANVASS_SIZE/range; 
+		Point tempPoint = new Point(x, y); 
+		Point zoomPoint = zoomPoint(tempPoint);
+		return(new Point(zoomPoint.getLong(), zoomPoint.getLat(), point.getTime()));
 		/*} else {
 			double x = (point.getLong() - minLong)*CANVASS_SIZE/range; 
 			double y = (point.getLat() - minLat)*CANVASS_SIZE/range; 
@@ -176,7 +176,7 @@ public class Scaler {
 		return(new Point(x, y, point.getTime()));
 	}
 
-	
+
 	/**
 	 * 
 	 * @param resize
@@ -188,12 +188,12 @@ public class Scaler {
 		double oldY = Scaler.yCenter; 
 		double newX = (oldX - zoomPoint.getLong())*scalingFactor + zoomPoint.getLong(); 
 		double newY = (oldY - zoomPoint.getLat())*scalingFactor + zoomPoint.getLat(); 
-		
+
 		Scaler.xCenter = newX; 
 		Scaler.yCenter = newY; 
 		Scaler.resize = resize; 
 	}
-	
+
 	public static Point zoomPoint(Point point){
 		double x = point.getLong(); 
 		double y = point.getLat(); 
@@ -201,7 +201,7 @@ public class Scaler {
 		double newY = (y - Scaler.originalY)*Scaler.resize + Scaler.yCenter;
 		return new Point(newX, newY);
 	}
-	
+
 	public static Point zoomToOriginal(Point point){
 		double x = point.getLong(); 
 		double y = point.getLat(); 
@@ -209,11 +209,11 @@ public class Scaler {
 		double yNew = (y - yCenter)/Scaler.resize + originalY; 
 		return new Point(xNew, yNew);
 	}
-	
+
 	public static void prepareZoomCanvass(String imageFile){
 		StdDraw.picture(xCenter, yCenter, imageFile, imageWidth*resize, imageHeight*resize); 
 	}
-	
+
 	/**
 	 * This method set provide the scaling for converting
 	 * coordinates in to dimensions that fit the display units. 
@@ -241,8 +241,8 @@ public class Scaler {
 			yCenter = 380;
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
-			
+
+
 			minLong = 103.769168;
 			minLat = 1.288457; 
 			range = 1.0;
@@ -261,7 +261,7 @@ public class Scaler {
 			originalY = 300; 
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
+
 			minLong = 103.767768;
 			minLat = 1.286707; 
 			range = 1.0;
@@ -282,7 +282,7 @@ public class Scaler {
 			originalY = 400; 
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
+
 			minLong = 103.766000;
 			minLat = 1.28925;
 			range = 1.0;
@@ -302,7 +302,7 @@ public class Scaler {
 			originalY = 300; 
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
+
 			minLong = 103.62;
 			minLat = 1.257;
 			range = 0.014426080324795976;
@@ -324,7 +324,7 @@ public class Scaler {
 			yCenter = 200; 
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
+
 			minLong = 103.605;
 			minLat = 1.2;
 			range = 0.014426080324795976;
@@ -349,7 +349,7 @@ public class Scaler {
 			originalY = 342; 
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
+
 			Scaler.minLong = 103.768554;
 			Scaler.minLat = 1.30309;
 			Scaler.range = 1;
@@ -370,7 +370,7 @@ public class Scaler {
 
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
+
 			minLong = 103.770547;
 			minLat = 1.293465;
 			range = 1.0;
@@ -378,9 +378,9 @@ public class Scaler {
 		}
 		if(imageFile.equals("FOE.png")){
 			if(prepareCanvass){
-				StdDraw.setCanvasSize(1000, 700);
-				StdDraw.setYscale(0, 700);
-				StdDraw.setXscale(0, 1000);
+				StdDraw.setCanvasSize(1300, 1000);
+				StdDraw.setYscale(0, 1000);
+				StdDraw.setXscale(0, 1300);
 			}
 			StdDraw.picture(330, 380, "FOE.png"); 
 			xCenter = 330; 
@@ -395,7 +395,7 @@ public class Scaler {
 			range = 1.0;
 			CANVASS_SIZE = 204691;
 		}
-		
+
 		if(imageFile.equals("FOESat.png")){
 			if(prepareCanvass){
 				StdDraw.setCanvasSize(1000, 700);
@@ -409,14 +409,14 @@ public class Scaler {
 			originalY = 380; 
 			imageWidth = 1440; 
 			imageHeight = 900; 
-			
+
 			minLong = 103.770063;
 			minLat = 1.297050;
 			range = 1.0;
 			CANVASS_SIZE = 204691;
 		} 
-		
-		
+
+
 		if(imageFile.equals("FoeSmall.png")){
 			/**StdDraw.setCanvasSize(1000, 700);
 			StdDraw.setYscale(0, 700);
@@ -433,7 +433,7 @@ public class Scaler {
 				StdDraw.setYscale(0, 700);
 				StdDraw.setXscale(0, 1000);
 			}
-			
+
 			StdDraw.picture(330, 380, "FoeSmall.png"); 
 			xCenter = 330; 
 			yCenter = 380; 
@@ -468,59 +468,5 @@ public class Scaler {
 		Scaler.minLat = minLat;
 		Scaler.range = 1;
 		Scaler.CANVASS_SIZE = averageScale;
-	}
-
-	public static void main(String[] args){
-		//Scaler.prepareCanvass("FASS.png", true);
-		/**StdDraw.setCanvasSize(700, 700);
-		StdDraw.setScale(0, 700);
-		StdDraw.picture(330, 380, "NusMedium.png"); 
-		minLong = 103.769168;
-		minLat = 1.288457; 
-		range = 1.0;
-		CANVASS_SIZE = 39000; */
-
-
-
-		/*String fileName = "A1.txt";
-		Scaler.prepareCanvass("NusMedium.png", true);
-		Display.showRoute(fileName);*/
-
-
-
-
-		//1.293229, 103.768720
-		//int outerRadius = 10;
-		//obtainScale(fileName);
-		//Display.showRoute(fileName);
-		StdDraw.setCanvasSize(1000, 700);
-		StdDraw.setYscale(0, 700);
-		StdDraw.setXscale(0, 1000);
-		StdDraw.picture(330, 380, "FoeSmall.png"); 
-
-
-		minLong = 103.769878;
-		minLat = 1.295937;
-		range = 1.0;
-		//heigthScale = 101803.37405468141
-		//widthScale = 101978.38058334193
-		//		averageScale = 101890.87731901166
-		CANVASS_SIZE = 101803.37405468141;
-		//Scaler.findScale(1.295977, 103.769878, 1.302853, 103.779684);
-		int outerRadius = 10; 
-
-		System.out.println("targetShown");
-		Display.showTarget(new Point(1.296701, 103.771491, true), outerRadius);
-		Display.showTarget(new Point(1.302112, 103.778504, true), outerRadius);
-		Point point = Display.listener(500);
-		Display.showTarget(point, 20);
-		System.out.println(point.getLat()+","+point.getLong());
-		Point point2 = Display.listener(500);
-		Display.showTarget(point2, 20);
-		System.out.println(point2.getLat()+","+point2.getLong());
-		System.out.println("longDiff = "+(point2.getLong() - point.getLong()));
-		System.out.println("latDiff = "+(point2.getLat() - point.getLat()));
-		System.out.println("distance = "+point.meterDistance(point2));
-		System.out.println("done");
 	}
 }

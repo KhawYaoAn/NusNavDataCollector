@@ -64,23 +64,7 @@ public class UIFunction {
 		vertexIndex = GeoJsonList.getClosestPointIndex(vertex);
 		StdDraw.setPenColor(StdDraw.YELLOW);
 		PointEdgeUI.showVertex(vertexIndex, 5, 10);
-		PanelDisplay.isSatisfied(11, 12);
-		int function = -1; 
-		while(function!= 11 && function!= 12 && function!= 13){
-			function = UserInterface.functionListener(); 
-		}
-		if(function == 11){
-			//user is satisfied; 
-			//perform editVertex function here;
-			MoreFunction.selectVertex(vertexIndex);
-		}
-		if(function == 12){
-			selectVertex();  //repeat again; 
-		}
-		if(function == 13){
-			//do nothing; resetPage(); 
-			returnToOrigin(); 
-		}	
+		MoreFunction.selectVertex(vertexIndex);
 	}
 
 	public static void deleteVertex(int vertexIndex){ //function 12, from 11
@@ -282,7 +266,7 @@ public class UIFunction {
 			MoreFunction.selectEdge(sourceIndex, destIndex, edge, otherEdge); 
 			//UIFunction.deleteEdge(sourceIndex, destIndex, edge);
 		}
-		
+
 	}
 
 	//function 20 reach from selectEdge
@@ -292,7 +276,7 @@ public class UIFunction {
 		if(edge.smoothRoute.size() > 0){
 			noRoute = false; 
 		}
-		
+
 		PanelDisplay.editSmoothRoutePanel(sourceIndex, destIndex, edge, otherEdge, noRoute); 
 		while(function != 13 && function != 14 && (function != 15 || noRoute) && 
 				(function != 16 || noRoute) && function != 17){
@@ -367,10 +351,10 @@ public class UIFunction {
 	}
 
 	public static void main (String[] args){
-		String geoJsonFile = "getJson.txt";
+		String geoJsonFile = "abc.txt";
 		outputFileName = "abc.txt";
 		//String geoJsonFile = UIFunction.outputFileName;
-		String imageFile = "FoeSmall.png";
+		String imageFile = "FOE.png";
 		run(geoJsonFile, imageFile);
 	}
 }

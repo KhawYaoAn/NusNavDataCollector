@@ -107,7 +107,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
     private static Object keyLock = new Object();
 
     // default font
-    private static final Font DEFAULT_FONT = new Font("SansSerif", Font.PLAIN, 16);
+    private static final Font DEFAULT_FONT = new Font("SansSerif", Font.PLAIN, 20);
 
     // current font
     private static Font font;

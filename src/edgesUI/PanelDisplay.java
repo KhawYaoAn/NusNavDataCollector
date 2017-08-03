@@ -66,6 +66,8 @@ public class PanelDisplay {
 		UserInterface.colorVertical(14, null);
 		UserInterface.colorVertical(15, null);
 		UserInterface.colorVertical(16, null);
+		UserInterface.colorVertical(17, null);
+		UserInterface.colorVertical(18, null);
 	}
 
 	public static void editVertexPanel(int vertexIndex, boolean hasEdge){
