@@ -160,6 +160,7 @@ public class PanelDisplay {
 		UserInterface.colorVertical(6, null);
 		UserInterface.colorVertical(13, null); 
 		UserInterface.colorVertical(17, null);
+		UserInterface.colorVertical(18, "returnTo/selectEdge");
 		UserInterface.colorVertical(19, null);
 		UserInterface.colorVertical(20, null);
 		System.out.println("PanelDisplay.selectEdgePanel.end");

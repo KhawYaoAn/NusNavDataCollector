@@ -149,7 +149,7 @@ public class MoreFunction {
 		PanelDisplay.selectEdgePanel(sourceIndex, destIndex, edge);
 		int function = -1; 
 		while(function != 3 && function != 6 && function != 13 &&
-				function != 17 && function != 19 && function != 20){
+				function != 17 && function != 18 && function != 19 && function != 20){
 			function = UserInterface.functionListener(); 
 		}
 
@@ -184,6 +184,10 @@ public class MoreFunction {
 
 		if(function == 17){
 			UIFunction.addEdge(sourceIndex);
+		}
+		
+		if(function == 18){
+			UIFunction.selectEdge(sourceIndex);
 		}
 
 		if(function == 19){ //delete edge
