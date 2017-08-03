@@ -367,7 +367,7 @@ public class UIFunction {
 	}
 
 	public static void main (String[] args){
-		String geoJsonFile = "abc.txt";
+		String geoJsonFile = "getJson.txt";
 		outputFileName = "abc.txt";
 		//String geoJsonFile = UIFunction.outputFileName;
 		String imageFile = "FoeSmall.png";

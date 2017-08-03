@@ -240,7 +240,7 @@ public class GeoJsonReader {
 					readEdgeCounter++; 
 				}
 				if(currLine.contains("imageLinks")){
-					edge.imageLinks = currLine.split(":")[1];
+					edge.imageLinks = currLine.split(":")[1].split(",")[0];
 					readEdgeCounter++; 
 					if(currLine.contains(",")){ //"imageLinks": [],
 						//contains smooth curve
@@ -251,14 +251,14 @@ public class GeoJsonReader {
 							boolean toContinue = true; 
 							while(toContinue){
 								currLine = buff.readLine(); //{1.111, 100.1111},
-								if(currLine.contains("]")){
+								if(currLine.contains("]]")){
 									toContinue = false; 
 								}
 								String sLat = currLine.split(",")[0];
-								String sLat2 = sLat.split("\\{")[1];
+								String sLat2 = sLat.split("[")[1];
 								double latitude = Double.parseDouble(sLat2);
 								String sLong = currLine.split(",")[1].trim();
-								String sLong2 = sLong.split("\\}")[0];
+								String sLong2 = sLong.split("]")[0];
 								double longitude = Double.parseDouble(sLong2);
 								Point tempPoint = new Point(longitude, latitude);
 								edge.smoothRoute.add(tempPoint);
@@ -329,10 +329,10 @@ public class GeoJsonReader {
 						String latitude = Double.toString(edge.smoothRoute.get(j).getLat());
 						if(j == edge.smoothRoute.size() - 1){
 							//{3.333, 333.333}]
-							line = line + "{" + latitude + ", " + longitude + "}]\n" ;
+							line = line + "[" + latitude + ", " + longitude + "]]\n" ;
 						}else{
 							//{1.111, 100.1111},
-							line = line + "{" + latitude + ", " + longitude + "},\n" ;
+							line = line + "[" + latitude + ", " + longitude + "],\n" ;
 						}
 					}
 				}
