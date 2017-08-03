@@ -244,7 +244,7 @@ public class GeoJsonReader {
 					readEdgeCounter++; 
 					if(currLine.contains(",")){ //"imageLinks": [],
 						//contains smooth curve
-						currLine = buff.readLine();  // “smoothCurve”:[
+						currLine = buff.readLine();  //
 						if(currLine.contains("[]")){ // "smoothCurve":[]
 							//do nothing; no smoothCurve found
 						}else{ //"smoothCurve":[
@@ -311,6 +311,7 @@ public class GeoJsonReader {
 			line =  "\"edgeList\": {\n";
 			for(int i = 0; i < edgeList.size(); i++){
 				Edge edge = edgeList.get(i);
+				edge.update(true);
 				line = line +  "\""+edge.name+"\": {\n" 
 						+"\"time\": "+Double.toString(edge.time)+",\n"
 						+"\"distance\": "+Double.toString(edge.distance)+",\n"

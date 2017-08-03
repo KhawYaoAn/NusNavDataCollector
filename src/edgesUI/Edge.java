@@ -2,6 +2,8 @@ package edgesUI;
 
 import java.util.ArrayList;
 
+import org.omg.CORBA.PolicyTypeHelper;
+
 public class Edge {
 	final double WALKING_SPEED = 100; //100 meter per seconds
 	String name = null;  //set by user; 
@@ -28,11 +30,28 @@ public class Edge {
 	
 	public void update(boolean updateDistance){
 		if(updateDistance){
+			if(smoothRoute.size() == 0) {
 			int originIndex = GeoJsonList.getVertexIndexByName(origin);
 			int edgeIndex = GeoJsonList.getVertexIndexByName(name); 
 			Point point = GeoJsonList.getPoint(originIndex);
 			Point other = GeoJsonList.getPoint(edgeIndex);
 			distance = other.meterDistance(point);
+			}else {
+				if(smoothRoute.size() < 0) {
+					System.out.println("Error: Edge.update, smoothRoute()< 0");
+				}else { //smoothRoute.size() > 0)
+					int originIndex = GeoJsonList.getVertexIndexByName(origin);
+					int edgeIndex = GeoJsonList.getVertexIndexByName(name); 
+					Point point = GeoJsonList.getPoint(originIndex);
+					Point other = GeoJsonList.getPoint(edgeIndex);
+					double tempDistance = 0; 
+					tempDistance += point.meterDistance(smoothRoute.get(0));
+					tempDistance += other.meterDistance(smoothRoute.get(smoothRoute.size() - 1));
+					for(int i = 0; i < smoothRoute.size() - 1; i++) {
+						tempDistance += smoothRoute.get(i).meterDistance(smoothRoute.get(i+1));
+					}
+				}
+			}
 		}
 		time = distance/WALKING_SPEED; //assuming walking speed of 100 meters per minute; 
 		//0 will be 1, 1 will be 1, 2 will be 2; 

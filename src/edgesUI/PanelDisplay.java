@@ -248,6 +248,7 @@ public class PanelDisplay {
 	}
 
 	public static void updateEdgePanel(Edge edge){
+		edge.update(true);
 		edge.setList(); 
 		for(int i = 0; i < 9; i++){
 			UserInterface.verticalDisplay[i] = UserInterface.verticalDisplay[i].split("/")[0] +"/"+edge.get(i);
