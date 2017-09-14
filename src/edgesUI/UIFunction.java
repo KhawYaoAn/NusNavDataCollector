@@ -354,7 +354,7 @@ public class UIFunction {
 		String geoJsonFile = "abc.txt";
 		outputFileName = "abc.txt";
 		//String geoJsonFile = UIFunction.outputFileName;
-		String imageFile = "NusSmall.png";
+		String imageFile = "NusLarge.png";
 		run(geoJsonFile, imageFile);
 	}
 }

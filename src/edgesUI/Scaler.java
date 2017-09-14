@@ -250,8 +250,9 @@ public class Scaler {
 		}
 		if(imageFile.equals("NusSmall.png")){
 			if(prepareCanvass){
-				StdDraw.setCanvasSize(500, 500);
-				StdDraw.setScale(0, 500);
+				StdDraw.setCanvasSize(1000, 700);
+				StdDraw.setXscale(0, 1000);
+				StdDraw.setYscale(0, 700);
 				StdDraw.picture(210, 300, "NusSmall.png"); 
 			}
 			StdDraw.picture(210, 300, "NusSmall.png"); 
