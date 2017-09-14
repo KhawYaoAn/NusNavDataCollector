@@ -17,7 +17,7 @@ var geojson = {
 "shelterWeight": 233.61508052379781,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                [],
+"imageLinks":                 [],
 "smoothRoute": [
 [1.2932758899676375, 103.77156202804747],
 [1.2935088996763755, 103.77094929881338],
@@ -31,7 +31,7 @@ var geojson = {
 "shelterWeight": 115.32155271449867,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2933082524271844, 103.7718640776699]]
 },
@@ -43,7 +43,7 @@ var geojson = {
 "shelterWeight": 99.31476035469619,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -157,7 +157,7 @@ var geojson = {
 "shelterWeight": 246.72106374444098,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.2950220522317188, 103.77414140930674],
 [1.2959223371320037, 103.773400668566],
@@ -171,7 +171,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.2949764681861349, 103.77361719278252],
 [1.295318348528015, 103.77327531244065]]
@@ -184,7 +184,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "The Deck": {
@@ -195,7 +195,7 @@ var geojson = {
 "shelterWeight": 172.35582837584943,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": [
 [1.2949926125356126, 103.7735697094017],
 [1.2950495925925924, 103.77322782905982]]
@@ -208,7 +208,7 @@ var geojson = {
 "shelterWeight": 95.06054719819343,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2948033980582525, 103.77376699029126],
 [1.2945121359223302, 103.77390291262137]]
@@ -266,7 +266,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -301,7 +301,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "I3": {
@@ -312,7 +312,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": [
 [1.2932870094966762, 103.77559819943019],
 [1.2928615584045584, 103.77546144729344]]
@@ -325,7 +325,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 }
 },
@@ -377,7 +377,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -410,7 +410,7 @@ var geojson = {
 "shelterWeight": 233.61508052379781,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                [],
+"imageLinks":                 [],
 "smoothRoute": [
 [1.2938713592233009, 103.77054368932039],
 [1.2935088996763755, 103.77094929881338],
@@ -424,7 +424,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":              [],
+"imageLinks":               [],
 "smoothRoute": [
 [1.2939339266450918, 103.77055663430421],
 [1.294244606256742, 103.77038834951456],
@@ -464,7 +464,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.296002109211776, 103.77256875973409]]
 },
@@ -476,7 +476,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 }
 },
@@ -509,7 +509,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Lecture Theatre 4": {
@@ -520,7 +520,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Computer Centre": {
@@ -531,7 +531,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2978658639119454, 103.77285257062107],
 [1.2976460203428584, 103.77271089365433]]
@@ -566,7 +566,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 }
 },
@@ -599,7 +599,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E1": {
@@ -610,7 +610,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2985400508571456, 103.77144557177891],
 [1.2984521134295108, 103.77123061362248]]
@@ -623,7 +623,7 @@ var geojson = {
 "shelterWeight": 68.65270689058381,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.298530280031853, 103.77155305085714]]
 },
@@ -635,7 +635,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2991898107391142, 103.77156282168244],
 [1.2993070606426271, 103.77178755066417]]
@@ -691,7 +691,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -727,7 +727,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -771,7 +771,7 @@ var geojson = {
 "shelterWeight": 112.80240367255227,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2976851036440293, 103.7708006973096],
 [1.2979977700533976, 103.77132343646277]]
@@ -784,7 +784,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "SDE3": {
@@ -795,7 +795,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "CELC": {
@@ -806,7 +806,7 @@ var geojson = {
 "shelterWeight": 109.72435040763503,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -848,7 +848,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": [
 [1.2928615584045584, 103.77546144729344],
 [1.2932870094966762, 103.77559819943019]]
@@ -861,7 +861,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -898,7 +898,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Chua Thian Poh Hall": {
@@ -909,7 +909,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Education Resource Centre": {
@@ -920,7 +920,7 @@ var geojson = {
 "shelterWeight": 122.84190905982832,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3060851564316687, 103.77330966822738]]
 }
@@ -1007,7 +1007,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.298269915479582, 103.77420218803418],
 [1.2981179686609687, 103.77388309971509],
@@ -1022,7 +1022,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.298259708737864, 103.77524703344122],
 [1.2984064185544768, 103.77560086299893]]
@@ -1035,7 +1035,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "YIH Busstop": {
@@ -1046,7 +1046,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": []
 },
 "CFA Studios": {
@@ -1057,7 +1057,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.2987954514285713, 103.77481889714286],
 [1.2990606685714285, 103.77443580571429],
@@ -1136,7 +1136,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.300489330503051, 103.77080558272225]]
 }
@@ -1170,7 +1170,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Techno Edge": {
@@ -1181,7 +1181,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E4": {
@@ -1192,7 +1192,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.298349519763937, 103.77155793626979],
 [1.2984765404927427, 103.77150419673067]]
@@ -1296,7 +1296,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 }
 },
@@ -1331,7 +1331,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -1387,7 +1387,7 @@ var geojson = {
 "shelterWeight": 200.33957359286296,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "S12": {
@@ -1398,7 +1398,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -1529,7 +1529,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2993705710070302, 103.77411300708384]]
 },
@@ -1541,7 +1541,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2993859223300972, 103.77407766990292],
 [1.2990752427184467, 103.77419417475728]]
@@ -1554,7 +1554,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.2994339371428572, 103.77405271428572],
 [1.29916872, 103.77427864],
@@ -1589,7 +1589,7 @@ var geojson = {
 "shelterWeight": 128.25882153609913,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "Tennis Courts": {
@@ -1600,7 +1600,7 @@ var geojson = {
 "shelterWeight": 114.32284147992335,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "Multi-Purpose Fields": {
@@ -1611,7 +1611,7 @@ var geojson = {
 "shelterWeight": 143.61556248403465,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -1645,7 +1645,7 @@ var geojson = {
 "shelterWeight": 133.1593131531001,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2975043433761133, 103.77236402935644],
 [1.2975825099784553, 103.77211487331147],
@@ -1659,7 +1659,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2977534994210786, 103.77242753972084]]
 },
@@ -1671,7 +1671,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2976509057555046, 103.77271089365433],
 [1.2978756347372382, 103.77285257062107]]
@@ -1684,7 +1684,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2976460203428584, 103.77271089365433],
 [1.2978658639119454, 103.77285257062107]]
@@ -1697,7 +1697,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": []
 }
 },
@@ -1730,7 +1730,7 @@ var geojson = {
 "shelterWeight": 116.10919586313604,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 }
 },
@@ -1763,7 +1763,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                  [],
+"imageLinks":                   [],
 "smoothRoute": [
 [1.292007281553398, 103.77483495145631],
 [1.2924150485436894, 103.77483495145631]]
@@ -1776,7 +1776,7 @@ var geojson = {
 "shelterWeight": 182.3532106951118,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                  [],
+"imageLinks":                   [],
 "smoothRoute": [
 [1.2918713592233009, 103.77493203883496],
 [1.2916577669902913, 103.77570873786408]]
@@ -1789,7 +1789,7 @@ var geojson = {
 "shelterWeight": 179.79282860130127,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -1820,7 +1820,7 @@ var geojson = {
 "shelterWeight": 114.32284147992335,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -1880,7 +1880,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "Lecture Theatre 16": {
@@ -1891,7 +1891,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "Lecture Theatre 17": {
@@ -1902,7 +1902,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "COM2 Busstop": {
@@ -1913,7 +1913,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -2016,7 +2016,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2989846234079663, 103.77267669576581],
 [1.2988331756159284, 103.77238845641968]]
@@ -2029,7 +2029,7 @@ var geojson = {
 "shelterWeight": 121.304054114755,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996294978772882, 103.77270600824168]]
 },
@@ -2041,7 +2041,7 @@ var geojson = {
 "shelterWeight": 51.050534434240255,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Raffles Hall": {
@@ -2052,7 +2052,7 @@ var geojson = {
 "shelterWeight": 177.48208556669627,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996050708140563, 103.7726864665911],
 [1.2998249143831435, 103.77332645564778]]
@@ -2106,7 +2106,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 },
 "Central Library": {
@@ -2117,7 +2117,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 },
 "Central Library Annexe": {
@@ -2128,7 +2128,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 }
 },
@@ -2161,7 +2161,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 }
 },
@@ -2237,7 +2237,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.299717435304923, 103.77095214510163],
 [1.3001766640936827, 103.77075672859579],
@@ -2251,7 +2251,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2999079663981319, 103.77086909308665]]
 },
@@ -2263,7 +2263,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Lecture Theatre 2": {
@@ -2274,7 +2274,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E2A": {
@@ -2285,7 +2285,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E1A": {
@@ -2296,7 +2296,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996588103531665, 103.7709814575775],
 [1.2995562166875925, 103.7707371869452]]
@@ -2309,7 +2309,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2991556128505894, 103.77124038444776],
 [1.2990481337723692, 103.7709814575775]]
@@ -2346,7 +2346,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -2401,7 +2401,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Lecture Theatre 3": {
@@ -2412,7 +2412,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Computer Centre": {
@@ -2423,7 +2423,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2978756347372382, 103.77285257062107],
 [1.2976509057555046, 103.77271089365433]]
@@ -2436,7 +2436,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.297829269705603, 103.77360199810066],
 [1.2979128404558404, 103.7737615422602],
@@ -2451,7 +2451,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 },
 "Chinese Library": {
@@ -2462,7 +2462,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 }
 },
@@ -2543,7 +2543,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.295869155745489, 103.77303219753085],
 [1.2964693456790124, 103.77325252041784]]
@@ -2556,7 +2556,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.2958881490978158, 103.77301320417853]]
 },
@@ -2568,7 +2568,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.296002109211776, 103.77256875973409]]
 },
@@ -2580,7 +2580,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -2613,7 +2613,7 @@ var geojson = {
 "shelterWeight": 118.16255821880517,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2977534994210786, 103.77166052993536]]
 },
@@ -2625,7 +2625,7 @@ var geojson = {
 "shelterWeight": 42.405247969071524,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "SDE1": {
@@ -2636,7 +2636,7 @@ var geojson = {
 "shelterWeight": 109.72435040763503,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -2690,7 +2690,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                       [],
+"imageLinks":                        [],
 "smoothRoute": []
 },
 "Yong Siew Toh Conservatory of Music": {
@@ -2701,7 +2701,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                       [],
+"imageLinks":                        [],
 "smoothRoute": []
 },
 "Museum Busstop": {
@@ -2712,7 +2712,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 }
 },
@@ -2783,7 +2783,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "NUH Kent Ridge Wing": {
@@ -2794,7 +2794,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "NUH": {
@@ -2805,7 +2805,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -2879,7 +2879,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 },
 "Raffles Hall": {
@@ -2890,7 +2890,7 @@ var geojson = {
 "shelterWeight": 196.45052096204225,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.3000626, 103.77465190857143],
 [1.3001117142857141, 103.77436704571429]]
@@ -2927,7 +2927,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.299702779066984, 103.7720220504712],
 [1.2994682792599577, 103.7721393003747],
@@ -2941,7 +2941,7 @@ var geojson = {
 "shelterWeight": 121.304054114755,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996294978772882, 103.77270600824168]]
 },
@@ -2953,7 +2953,7 @@ var geojson = {
 "shelterWeight": 129.17374607868345,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996148416393491, 103.77266203952787]]
 },
@@ -2965,7 +2965,7 @@ var geojson = {
 "shelterWeight": 194.18402398816312,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996099562267027, 103.77266692494051],
 [1.2998102581452042, 103.7732971431719]]
@@ -2978,7 +2978,7 @@ var geojson = {
 "shelterWeight": 198.33718576489008,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.300240291262136, 103.77231715210357],
 [1.3007305542857142, 103.77300166857144]]
@@ -3059,7 +3059,7 @@ var geojson = {
 "shelterWeight": 182.3532106951118,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                  [],
+"imageLinks":                   [],
 "smoothRoute": [
 [1.2916577669902913, 103.77570873786408],
 [1.2918713592233009, 103.77493203883496]]
@@ -3103,7 +3103,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.2958767530864197, 103.77303219753085],
 [1.296476943019943, 103.77326011775878]]
@@ -3116,7 +3116,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 },
 "Lecture Theatre 15": {
@@ -3127,7 +3127,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 },
 "COM1": {
@@ -3138,7 +3138,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.295318348528015, 103.77327531244065],
 [1.2949764681861349, 103.77361719278252]]
@@ -3151,7 +3151,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.2958881490978158, 103.77301320417853]]
 }
@@ -3209,7 +3209,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -3282,7 +3282,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "Bet House 14 & 15 Busstop": {
@@ -3293,7 +3293,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "Kent Ridge MRT Station Busstop": {
@@ -3304,7 +3304,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.2916577669902913, 103.78038834951457],
 [1.2914053398058252, 103.7806213592233],
@@ -3322,7 +3322,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.2912694174757282, 103.78038834951457],
 [1.290997572815534, 103.78087378640777],
@@ -3339,7 +3339,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Prince George's Park Residences": {
@@ -3350,7 +3350,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -3386,7 +3386,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "Lecture Theatre 29": {
@@ -3397,7 +3397,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "Lecture Theatre 28": {
@@ -3408,7 +3408,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "MD9": {
@@ -3419,7 +3419,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.2968271305285868, 103.78114994606257],
 [1.2966890507011866, 103.78113268608415]]
@@ -3454,7 +3454,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Residential College 4": {
@@ -3465,7 +3465,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Education Resource Centre": {
@@ -3476,7 +3476,7 @@ var geojson = {
 "shelterWeight": 209.82241970099776,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3072871385111169, 103.77284585992498],
 [1.3067776026296116, 103.77281319736848],
@@ -3517,7 +3517,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 },
 "AS8": {
@@ -3528,7 +3528,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.2964693456790124, 103.77325252041784],
 [1.295869155745489, 103.77303219753085]]
@@ -3541,7 +3541,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.296476943019943, 103.77326011775878],
 [1.2958767530864197, 103.77303219753085]]
@@ -3554,7 +3554,7 @@ var geojson = {
 "shelterWeight": 246.72106374444098,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": [
 [1.2964807416904083, 103.77324112440645],
 [1.2959223371320037, 103.773400668566],
@@ -3568,7 +3568,7 @@ var geojson = {
 "shelterWeight": 116.10919586313604,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 },
 "Central Library Busstop": {
@@ -3579,7 +3579,7 @@ var geojson = {
 "shelterWeight": 64.43302383914695,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Computer Centre Busstop": {
@@ -3590,7 +3590,7 @@ var geojson = {
 "shelterWeight": 103.4188643785412,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": []
 }
 },
@@ -3623,7 +3623,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -3656,7 +3656,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "McDonald's": {
@@ -3667,7 +3667,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2979928846407511, 103.77096680133957]]
 },
@@ -3679,7 +3679,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2981101345442643, 103.77092283262576],
 [1.2980661658304469, 103.77065413493021]]
@@ -3736,7 +3736,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "Hon Sui Sen Memorial Library": {
@@ -3747,7 +3747,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 }
 },
@@ -3780,7 +3780,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -3836,7 +3836,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -3914,7 +3914,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2990481337723692, 103.7709814575775],
 [1.2991556128505894, 103.77124038444776]]
@@ -3927,7 +3927,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "EW1": {
@@ -3938,7 +3938,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Lecture Theatre 5": {
@@ -3949,7 +3949,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "McDonald's": {
@@ -3960,7 +3960,7 @@ var geojson = {
 "shelterWeight": 90.0814426132127,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2984716550800963, 103.77122572820983],
 [1.298403259303047, 103.77111336371897]]
@@ -3973,7 +3973,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2984521134295108, 103.77123061362248],
 [1.2985400508571456, 103.77144557177891]]
@@ -4022,7 +4022,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3004991013283438, 103.77063459327962]]
 },
@@ -4034,7 +4034,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.300489330503051, 103.77080558272225]]
 },
@@ -4046,7 +4046,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.300435590963941, 103.77083489519812],
 [1.3002010911569146, 103.77077138483372]]
@@ -4059,7 +4059,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3004013930754161, 103.77103519711662]]
 },
@@ -4071,7 +4071,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3004160493133552, 103.77051734337611],
 [1.3000056746510595, 103.77042452053583],
@@ -4085,7 +4085,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3003525389489523, 103.7708006973096],
 [1.3001766640936827, 103.77075672859579],
@@ -4099,7 +4099,7 @@ var geojson = {
 "shelterWeight": 278.18941086661664,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.299693008241691, 103.77063459327962],
 [1.299292404404688, 103.77037566640936],
@@ -4113,7 +4113,7 @@ var geojson = {
 "shelterWeight": 206.42938803361523,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.3006716171428572, 103.77076205714286],
 [1.3008582514285714, 103.77086028571429],
@@ -4170,7 +4170,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 },
 "University Health Centre Busstop": {
@@ -4181,7 +4181,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -4225,7 +4225,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                  [],
+"imageLinks":                   [],
 "smoothRoute": [
 [1.2924150485436894, 103.77483495145631],
 [1.292007281553398, 103.77483495145631]]
@@ -4238,7 +4238,7 @@ var geojson = {
 "shelterWeight": 91.6208298781321,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "Hon Sui Sen Memorial Library": {
@@ -4249,7 +4249,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -4304,7 +4304,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -4338,7 +4338,7 @@ var geojson = {
 "shelterWeight": 194.18402398816312,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2998102581452042, 103.7732971431719],
 [1.2996099562267027, 103.77266692494051]]
@@ -4351,7 +4351,7 @@ var geojson = {
 "shelterWeight": 177.48208556669627,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2998249143831435, 103.77332645564778],
 [1.2996050708140563, 103.7726864665911]]
@@ -4364,7 +4364,7 @@ var geojson = {
 "shelterWeight": 185.44273294648968,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2998004873199116, 103.773350882711],
 [1.2996148416393491, 103.77271577906697]]
@@ -4377,7 +4377,7 @@ var geojson = {
 "shelterWeight": 318.54990733449233,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2997907164946187, 103.77334111188571],
 [1.2996197270519956, 103.7726864665911],
@@ -4392,7 +4392,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2993705710070302, 103.77411300708384]]
 },
@@ -4404,7 +4404,7 @@ var geojson = {
 "shelterWeight": 169.88802635924696,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.3006804207119742, 103.77343042071197],
 [1.3009004854368933, 103.77333980582524],
@@ -4418,7 +4418,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.3006804207119742, 103.77343042071197],
 [1.3009004854368933, 103.77333980582524]]
@@ -4431,7 +4431,7 @@ var geojson = {
 "shelterWeight": 196.45052096204225,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.3001117142857141, 103.77436704571429],
 [1.3000626, 103.77465190857143]]
@@ -4473,7 +4473,7 @@ var geojson = {
 "shelterWeight": 50.940498456203784,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -4497,7 +4497,7 @@ var geojson = {
 "rooms": [
 "E-Canteen",
 "Prince George's Park Residences",
-"Route 77 Café",
+"Route 77 Cafï¿½",
 "Supersnacks",
 "AXS (PGPR)"
 ],
@@ -4510,7 +4510,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -4544,7 +4544,7 @@ var geojson = {
 "shelterWeight": 208.09711280408752,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2987598944262329, 103.77023887485527],
 [1.2992972898173345, 103.77037078099671]]
@@ -4557,7 +4557,7 @@ var geojson = {
 "shelterWeight": 278.18941086661664,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2987550090135864, 103.77024864568055],
 [1.299292404404688, 103.77037566640936],
@@ -4571,7 +4571,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2980661658304469, 103.77065413493021],
 [1.2981101345442643, 103.77092283262576]]
@@ -4584,7 +4584,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -4621,7 +4621,7 @@ var geojson = {
 "shelterWeight": 172.35582837584943,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": [
 [1.2950495925925924, 103.77322782905982],
 [1.2949926125356126, 103.7735697094017]]
@@ -4634,7 +4634,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 }
 },
@@ -4690,7 +4690,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "NUH": {
@@ -4701,7 +4701,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -4784,7 +4784,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3004013930754161, 103.77103519711662]]
 },
@@ -4796,7 +4796,7 @@ var geojson = {
 "shelterWeight": 73.6187696246575,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3003720805995378, 103.7711280199569],
 [1.3002890285845494, 103.77106939500514]]
@@ -4809,7 +4809,7 @@ var geojson = {
 "shelterWeight": 157.86105620223466,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3000838412534015, 103.771748467363],
 [1.2994047688955548, 103.77197808175737],
@@ -4823,7 +4823,7 @@ var geojson = {
 "shelterWeight": 318.54990733449233,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3000349871269377, 103.77181686314005],
 [1.300269486933964, 103.77232006064263],
@@ -4838,7 +4838,7 @@ var geojson = {
 "shelterWeight": 169.90773737150232,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.300913430420712, 103.77203236245956],
 [1.3008875404530744, 103.77227831715211]]
@@ -4877,7 +4877,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -4911,7 +4911,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.2966890507011866, 103.78113268608415],
 [1.2968271305285868, 103.78114994606257]]
@@ -4994,7 +4994,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 }
 },
@@ -5032,7 +5032,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2993217168805664, 103.77179732148946],
 [1.2991849253264678, 103.77148954049274]]
@@ -5045,7 +5045,7 @@ var geojson = {
 "shelterWeight": 157.86105620223464,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2993461439437983, 103.77184129020327],
 [1.2994047688955548, 103.77197808175737],
@@ -5059,7 +5059,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2993217168805664, 103.77181686314005],
 [1.2994682792599577, 103.7721393003747],
@@ -5073,7 +5073,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E2A": {
@@ -5084,7 +5084,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2993070606426271, 103.77178755066417],
 [1.2991898107391142, 103.77156282168244]]
@@ -5097,7 +5097,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                         [],
+"imageLinks":                          [],
 "smoothRoute": [
 [1.2998053727325578, 103.77152373838126],
 [1.2996588103531665, 103.77124038444776]]
@@ -5134,7 +5134,7 @@ var geojson = {
 "shelterWeight": 121.35720965844337,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2975873953911017, 103.77124526986042],
 [1.2977486140084322, 103.77166052993536]]
@@ -5147,7 +5147,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "CELC": {
@@ -5158,7 +5158,7 @@ var geojson = {
 "shelterWeight": 42.405247969071524,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -5191,7 +5191,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Lecture Theatre 2": {
@@ -5202,7 +5202,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E2": {
@@ -5213,7 +5213,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E3": {
@@ -5224,7 +5224,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                         [],
+"imageLinks":                          [],
 "smoothRoute": [
 [1.2996588103531665, 103.77124038444776],
 [1.2998053727325578, 103.77152373838126]]
@@ -5265,7 +5265,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2992337794529316, 103.77163121745949],
 [1.299175154501175, 103.7714748842548]]
@@ -5278,7 +5278,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2984765404927427, 103.77150419673067],
 [1.298349519763937, 103.77155793626979]]
@@ -5291,7 +5291,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E2A": {
@@ -5302,7 +5302,7 @@ var geojson = {
 "shelterWeight": 68.65270689058381,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.298530280031853, 103.77155305085714]]
 },
@@ -5314,7 +5314,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E5": {
@@ -5325,7 +5325,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2985253946192066, 103.77223212321499],
 [1.298168759496021, 103.77212464413677]]
@@ -5338,7 +5338,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2985205092065601, 103.77223700862763],
 [1.2986866132365371, 103.77238845641968]]
@@ -5371,7 +5371,7 @@ var geojson = {
 "shelterWeight": 143.61556248403465,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -5410,7 +5410,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":              [],
+"imageLinks":               [],
 "smoothRoute": []
 }
 },
@@ -5443,7 +5443,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -5501,7 +5501,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                       [],
+"imageLinks":                        [],
 "smoothRoute": []
 },
 "Lee Kong Chian Natural History Museum": {
@@ -5512,7 +5512,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                       [],
+"imageLinks":                        [],
 "smoothRoute": []
 }
 },
@@ -5543,7 +5543,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3004991013283438, 103.77063459327962]]
 }
@@ -5583,7 +5583,7 @@ var geojson = {
 "shelterWeight": 104.81584714389223,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "BIZ1": {
@@ -5594,7 +5594,7 @@ var geojson = {
 "shelterWeight": 91.6208298781321,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -5640,7 +5640,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.304354040936811, 103.77301570521881],
 [1.3043736384707152, 103.77330966822738]]
@@ -5653,7 +5653,7 @@ var geojson = {
 "shelterWeight": 114.06490202017464,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3048047842166042, 103.77240164915649],
 [1.3049550319765353, 103.77270214467634]]
@@ -5666,7 +5666,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3049746295104394, 103.77225793390787],
 [1.3054449703241364, 103.77229059646437],
@@ -5702,7 +5702,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.296947950377562, 103.7802006472492]]
 },
@@ -5714,7 +5714,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "Lecture Theatre 27": {
@@ -5725,7 +5725,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -5758,7 +5758,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -5842,7 +5842,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.296965210355987, 103.78015749730314]]
 },
@@ -5854,7 +5854,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -5893,7 +5893,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996099562267027, 103.77065902034285],
 [1.3000056746510595, 103.77042452053583],
@@ -5907,7 +5907,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2995562166875925, 103.7707371869452],
 [1.2996588103531665, 103.7709814575775]]
@@ -5920,7 +5920,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "SDE3": {
@@ -5931,7 +5931,7 @@ var geojson = {
 "shelterWeight": 208.09711280408752,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2992972898173345, 103.77037078099671],
 [1.2987598944262329, 103.77023887485527]]
@@ -5964,7 +5964,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.2999166666666666, 103.77474433656958],
 [1.3006156957928803, 103.77427831715211],
@@ -5978,7 +5978,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 }
 },
@@ -6031,7 +6031,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -6064,7 +6064,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 }
 },
@@ -6100,7 +6100,7 @@ var geojson = {
 "shelterWeight": 136.5558615980177,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.298158988670728, 103.77197808175737],
 [1.2982371552730703, 103.77166052993536]]
@@ -6113,7 +6113,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.298168759496021, 103.77212464413677],
 [1.2985253946192066, 103.77223212321499]]
@@ -6126,7 +6126,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2977534994210786, 103.77242753972084]]
 },
@@ -6138,7 +6138,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Lecture Theatre 3": {
@@ -6149,7 +6149,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -6180,7 +6180,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -6214,7 +6214,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "S13": {
@@ -6225,7 +6225,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "University Hall": {
@@ -6236,7 +6236,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "University Hall Busstop": {
@@ -6247,7 +6247,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -6285,7 +6285,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                       [],
+"imageLinks":                        [],
 "smoothRoute": []
 },
 "Lee Kong Chian Natural History Museum": {
@@ -6296,7 +6296,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                       [],
+"imageLinks":                        [],
 "smoothRoute": []
 },
 "Museum Busstop": {
@@ -6307,7 +6307,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 },
 "EA": {
@@ -6318,7 +6318,7 @@ var geojson = {
 "shelterWeight": 206.42938803361523,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.3012609885714286, 103.7715478857143],
 [1.3011136457142858, 103.77145948],
@@ -6357,7 +6357,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3060655588977645, 103.77358403370204],
 [1.3058042584457106, 103.77359709872464],
@@ -6372,7 +6372,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Education Resource Centre": {
@@ -6383,7 +6383,7 @@ var geojson = {
 "shelterWeight": 102.17542302586268,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -6438,7 +6438,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.305098747225165, 103.77363629379245],
 [1.3043083133577018, 103.77374081397326]]
@@ -6451,7 +6451,7 @@ var geojson = {
 "shelterWeight": 83.26638931125015,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Education Resource Centre": {
@@ -6462,7 +6462,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3051314097816717, 103.77362976128114],
 [1.3055625555275607, 103.77349911105512],
@@ -6476,7 +6476,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3051314097816717, 103.77363629379245],
 [1.3055429579936566, 103.77351870858902],
@@ -6513,7 +6513,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E2": {
@@ -6524,7 +6524,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E4": {
@@ -6535,7 +6535,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.299175154501175, 103.7714748842548],
 [1.2992337794529316, 103.77163121745949]]
@@ -6548,7 +6548,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2991849253264678, 103.77148954049274],
 [1.2993217168805664, 103.77179732148946]]
@@ -6583,7 +6583,7 @@ var geojson = {
 "shelterWeight": 129.17374607868345,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996148416393491, 103.77266203952787]]
 },
@@ -6595,7 +6595,7 @@ var geojson = {
 "shelterWeight": 51.050534434240255,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E4A": {
@@ -6606,7 +6606,7 @@ var geojson = {
 "shelterWeight": 111.82218372734582,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2990921024861866, 103.77292096639812],
 [1.2989748525826734, 103.77297470593723],
@@ -6620,7 +6620,7 @@ var geojson = {
 "shelterWeight": 185.44273294648968,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2996148416393491, 103.77271577906697],
 [1.2998004873199116, 103.773350882711]]
@@ -6655,7 +6655,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -6710,7 +6710,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                      [],
+"imageLinks":                       [],
 "smoothRoute": []
 }
 },
@@ -6787,7 +6787,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "Blk AS7 Busstop": {
@@ -6798,7 +6798,7 @@ var geojson = {
 "shelterWeight": 102.94037142091817,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "Shaw Foundation Alumni House": {
@@ -6809,7 +6809,7 @@ var geojson = {
 "shelterWeight": 104.81584714389223,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -6840,7 +6840,7 @@ var geojson = {
 "shelterWeight": 100.66534326377737,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2984344660194176, 103.77361165048545]]
 }
@@ -6874,7 +6874,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2979928846407511, 103.77096680133957]]
 },
@@ -6886,7 +6886,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E1": {
@@ -6897,7 +6897,7 @@ var geojson = {
 "shelterWeight": 90.0814426132127,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.298403259303047, 103.77111336371897],
 [1.2984716550800963, 103.77122572820983]]
@@ -6932,7 +6932,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 }
 },
@@ -6986,7 +6986,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "Lecture Theatre 19": {
@@ -6997,7 +6997,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "BIZ2": {
@@ -7008,7 +7008,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "COM2": {
@@ -7019,7 +7019,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "COM2 Busstop": {
@@ -7030,7 +7030,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -7065,7 +7065,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Stephen Riady Centre": {
@@ -7076,7 +7076,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3043736384707152, 103.77330966822738],
 [1.304354040936811, 103.77301570521881]]
@@ -7089,7 +7089,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3043083133577018, 103.77374081397326],
 [1.305098747225165, 103.77363629379245]]
@@ -7102,7 +7102,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Town Green": {
@@ -7113,7 +7113,7 @@ var geojson = {
 "shelterWeight": 123.63130209883215,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3044193660498247, 103.77334886329518]]
 },
@@ -7125,7 +7125,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":     [],
+"imageLinks":      [],
 "smoothRoute": [
 [1.3038151087544498, 103.77410990086179],
 [1.3037563161527377, 103.77429607743387],
@@ -7161,7 +7161,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2986866132365371, 103.77238845641968],
 [1.2985205092065601, 103.77223700862763]]
@@ -7174,7 +7174,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2988331756159284, 103.77238845641968],
 [1.2989846234079663, 103.77267669576581]]
@@ -7187,7 +7187,7 @@ var geojson = {
 "shelterWeight": 111.82218372734582,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.298764779838879, 103.77244219595877],
 [1.2989748525826734, 103.77297470593723],
@@ -7245,7 +7245,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Lecture Theatre 5": {
@@ -7256,7 +7256,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E5": {
@@ -7267,7 +7267,7 @@ var geojson = {
 "shelterWeight": 136.5558615980177,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2982371552730703, 103.77166052993536],
 [1.298158988670728, 103.77197808175737]]
@@ -7280,7 +7280,7 @@ var geojson = {
 "shelterWeight": 133.1593131531001,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2978854055625308, 103.77178266525152],
 [1.2975825099784553, 103.77211487331147],
@@ -7294,7 +7294,7 @@ var geojson = {
 "shelterWeight": 121.35720965844337,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2977486140084322, 103.77166052993536],
 [1.2975873953911017, 103.77124526986042]]
@@ -7307,7 +7307,7 @@ var geojson = {
 "shelterWeight": 118.16255821880517,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2977534994210786, 103.77166052993536]]
 },
@@ -7319,7 +7319,7 @@ var geojson = {
 "shelterWeight": 112.80240367255227,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2979977700533976, 103.77132343646277],
 [1.2976851036440293, 103.7708006973096]]
@@ -7332,7 +7332,7 @@ var geojson = {
 "shelterWeight": 216.32883697654268,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.2977836971428571, 103.77160682285715],
 [1.2976265314285713, 103.7714791257143],
@@ -7438,7 +7438,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "S14": {
@@ -7449,7 +7449,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 }
 },
@@ -7485,7 +7485,7 @@ var geojson = {
 "shelterWeight": 114.71381238045213,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "The Ngee Ann Kongsi Auditorium": {
@@ -7496,7 +7496,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "UTown Residences": {
@@ -7507,7 +7507,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3055625555275607, 103.7729242500606],
 [1.3055625555275607, 103.77349911105512],
@@ -7521,7 +7521,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3057128032874918, 103.77264335207464],
 [1.3054449703241364, 103.77229059646437],
@@ -7535,7 +7535,7 @@ var geojson = {
 "shelterWeight": 102.17542302586268,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Cinnamon College": {
@@ -7546,7 +7546,7 @@ var geojson = {
 "shelterWeight": 122.84190905982832,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3060851564316687, 103.77330966822738]]
 },
@@ -7558,7 +7558,7 @@ var geojson = {
 "shelterWeight": 209.82241970099778,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3062680667481064, 103.77255189691643],
 [1.3066273548696807, 103.77258455947293],
@@ -7595,7 +7595,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "College of Alice & Peter Tan": {
@@ -7606,7 +7606,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -7639,7 +7639,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3002010911569146, 103.77077138483372],
 [1.300435590963941, 103.77083489519812]]
@@ -7652,7 +7652,7 @@ var geojson = {
 "shelterWeight": 73.6187696246575,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3002890285845494, 103.77106939500514],
 [1.3003720805995378, 103.7711280199569]]
@@ -7665,7 +7665,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "E2": {
@@ -7676,7 +7676,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.2999079663981319, 103.77086909308665]]
 }
@@ -7735,7 +7735,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "S15": {
@@ -7746,7 +7746,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "S16": {
@@ -7757,7 +7757,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.296965210355987, 103.78015749730314]]
 },
@@ -7769,7 +7769,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.296947950377562, 103.7802006472492]]
 }
@@ -7871,7 +7871,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                     [],
+"imageLinks":                      [],
 "smoothRoute": []
 },
 "BIZ1": {
@@ -7882,7 +7882,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -7916,7 +7916,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": [
 [1.2984064185544768, 103.77560086299893],
 [1.298259708737864, 103.77524703344122]]
@@ -7929,7 +7929,7 @@ var geojson = {
 "shelterWeight": 200.33957359286296,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                    [],
+"imageLinks":                     [],
 "smoothRoute": []
 },
 "Opp University Health Centre Busstop": {
@@ -7940,7 +7940,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -7994,7 +7994,7 @@ var geojson = {
 "shelterWeight": 83.26638931125015,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 },
 "Town Plaza": {
@@ -8005,7 +8005,7 @@ var geojson = {
 "shelterWeight": 123.63130209883215,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3044193660498247, 103.77334886329518]]
 },
@@ -8017,7 +8017,7 @@ var geojson = {
 "shelterWeight": 114.06490202017464,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": [
 [1.3049550319765353, 103.77270214467634],
 [1.3048047842166042, 103.77240164915649]]
@@ -8030,7 +8030,7 @@ var geojson = {
 "shelterWeight": 114.71381238045213,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                            [],
+"imageLinks":                             [],
 "smoothRoute": []
 }
 },
@@ -8140,7 +8140,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 },
 "NUH Medical Centre": {
@@ -8151,7 +8151,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -8182,7 +8182,7 @@ var geojson = {
 "shelterWeight": 169.88802635924694,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.3010946601941749, 103.77339158576052],
 [1.3009004854368933, 103.77333980582524],
@@ -8196,7 +8196,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 },
 "University Cultural Centre": {
@@ -8207,7 +8207,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 },
 "MPSH 6": {
@@ -8218,7 +8218,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.3007710355987054, 103.77408414239483],
 [1.3006156957928803, 103.77427831715211],
@@ -8232,7 +8232,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": []
 },
 "University Health Centre Busstop": {
@@ -8243,7 +8243,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.3009004854368933, 103.77403883495145],
 [1.3007063106796117, 103.7742718446602],
@@ -8261,7 +8261,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.300881067961165, 103.77403883495145],
 [1.3007063106796117, 103.77429126213593],
@@ -8277,7 +8277,7 @@ var geojson = {
 "shelterWeight": 138.59502822527378,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.3012888349514564, 103.77341747572817],
 [1.3009199029126213, 103.77328155339806]]
@@ -8290,7 +8290,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":    [],
+"imageLinks":     [],
 "smoothRoute": [
 [1.3008649861111112, 103.77413084722222],
 [1.3010385972222223, 103.77428709722223],
@@ -8327,7 +8327,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.3009004854368933, 103.77333980582524],
 [1.3006804207119742, 103.77343042071197]]
@@ -8340,7 +8340,7 @@ var geojson = {
 "shelterWeight": 198.33718576489008,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.3007305542857142, 103.77300166857144],
 [1.300240291262136, 103.77231715210357]]
@@ -8353,7 +8353,7 @@ var geojson = {
 "shelterWeight": 169.90773737150232,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":                   [],
+"imageLinks":                    [],
 "smoothRoute": [
 [1.3008875404530744, 103.77227831715211],
 [1.300913430420712, 103.77203236245956]]
@@ -8366,7 +8366,7 @@ var geojson = {
 "shelterWeight": 138.59502822527378,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.3009199029126213, 103.77328155339806],
 [1.3012888349514564, 103.77341747572817]]
@@ -8399,7 +8399,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2990946601941749, 103.77445091693636],
 [1.2991723300970874, 103.774619201726],
@@ -8413,7 +8413,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2982273462783172, 103.77376699029126],
 [1.2977613268608414, 103.77315857605178],
@@ -8427,7 +8427,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.2990946601941749, 103.77446601941747],
 [1.299483009708738, 103.77464077669903],
@@ -8443,7 +8443,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": []
 }
 },
@@ -8474,7 +8474,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2982532362459547, 103.77354476806904],
 [1.2978778317152104, 103.77305285868393]]
@@ -8487,7 +8487,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.2994635922330098, 103.77436893203884],
 [1.3001043689320388, 103.7744077669903],
@@ -8503,7 +8503,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2990752427184467, 103.77419417475728],
 [1.2993859223300972, 103.77407766990292]]
@@ -8516,7 +8516,7 @@ var geojson = {
 "shelterWeight": 100.66534326377737,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2984344660194176, 103.77361165048545]]
 }
@@ -8548,7 +8548,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2988098705501618, 103.77604314994606],
 [1.2986027508090614, 103.77645738942827],
@@ -8563,7 +8563,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2988228155339805, 103.77521467098167],
 [1.2991723300970874, 103.774619201726],
@@ -8577,7 +8577,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.298881067961165, 103.77518446601943],
 [1.2992111650485436, 103.77458252427185],
@@ -8596,7 +8596,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Yusof Ishak House": {
@@ -8607,7 +8607,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Ridge View Residences": {
@@ -8618,7 +8618,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -8649,7 +8649,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2987063106796117, 103.77653505933118],
 [1.298123786407767, 103.77705285868393],
@@ -8663,7 +8663,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.2989393203883495, 103.77570873786408],
 [1.2989393203883495, 103.77526213592233],
@@ -8681,7 +8681,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "University Health Centre": {
@@ -8692,7 +8692,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Opp University Health Centre Busstop": {
@@ -8703,7 +8703,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -8734,7 +8734,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2972046925566343, 103.77901186623517],
 [1.2974377022653723, 103.78016828478965]]
@@ -8747,7 +8747,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2978001618122978, 103.77741531823085],
 [1.298123786407767, 103.77705285868393],
@@ -8761,7 +8761,7 @@ var geojson = {
 "shelterWeight": 107.78820622764187,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Football Field": {
@@ -8772,7 +8772,7 @@ var geojson = {
 "shelterWeight": 128.25882153609913,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -8803,7 +8803,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2970364077669903, 103.77920172599785],
 [1.2972953074433657, 103.7801337648328]]
@@ -8816,7 +8816,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2976966019417475, 103.77736353829559],
 [1.298007281553398, 103.7769622437972],
@@ -8831,7 +8831,7 @@ var geojson = {
 "shelterWeight": 107.78820622764187,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "S12": {
@@ -8842,7 +8842,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -8873,7 +8873,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2973600323624594, 103.78127292340885],
 [1.2966351132686085, 103.78291693635383]]
@@ -8886,7 +8886,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2972953074433657, 103.7801337648328],
 [1.2970364077669903, 103.77920172599785]]
@@ -8899,7 +8899,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -8930,7 +8930,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2974377022653723, 103.78016828478965],
 [1.2972046925566343, 103.77901186623517]]
@@ -8943,7 +8943,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": []
 },
 "LT29 Busstop": {
@@ -8954,7 +8954,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Lecture Theatre 33": {
@@ -8965,7 +8965,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "S17": {
@@ -8976,7 +8976,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9007,7 +9007,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2978778317152104, 103.77305285868393],
 [1.2982532362459547, 103.77354476806904]]
@@ -9020,7 +9020,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.29682928802589, 103.77245954692557],
 [1.2963503236245955, 103.77182524271845],
@@ -9035,7 +9035,7 @@ var geojson = {
 "shelterWeight": 110.50046882058423,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Computer Centre": {
@@ -9046,7 +9046,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": []
 },
 "Central Library": {
@@ -9057,7 +9057,7 @@ var geojson = {
 "shelterWeight": 103.4188643785412,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": []
 }
 },
@@ -9088,7 +9088,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2971011326860842, 103.77295145631068],
 [1.2977613268608414, 103.77315857605178],
@@ -9102,7 +9102,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.296324433656958, 103.77217475728156],
 [1.2961690938511328, 103.77174757281554],
@@ -9118,7 +9118,7 @@ var geojson = {
 "shelterWeight": 110.50046882058423,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "AS8": {
@@ -9129,7 +9129,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Central Library": {
@@ -9140,7 +9140,7 @@ var geojson = {
 "shelterWeight": 64.43302383914695,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Techno Edge": {
@@ -9151,7 +9151,7 @@ var geojson = {
 "shelterWeight": 216.32883697654268,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":   [],
+"imageLinks":    [],
 "smoothRoute": [
 [1.2968898171428571, 103.77218637142857],
 [1.2971845028571427, 103.77178363428573],
@@ -9186,7 +9186,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.295081715210356, 103.7706860841424],
 [1.2956383495145631, 103.77090614886733],
@@ -9202,7 +9202,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2943567961165048, 103.77088025889968],
 [1.293890776699029, 103.77112621359224]]
@@ -9215,7 +9215,7 @@ var geojson = {
 "shelterWeight": 52.33388427362479,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "AS7": {
@@ -9226,7 +9226,7 @@ var geojson = {
 "shelterWeight": 50.940498456203784,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9257,7 +9257,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":              [],
+"imageLinks":               [],
 "smoothRoute": []
 },
 "Eusoff Hall": {
@@ -9268,7 +9268,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":              [],
+"imageLinks":               [],
 "smoothRoute": [
 [1.2948789104638618, 103.77031067961165],
 [1.2945164509169365, 103.77025889967638],
@@ -9283,7 +9283,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.295470064724919, 103.7706860841424],
 [1.296376213592233, 103.77091909385113],
@@ -9298,7 +9298,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2946804207119742, 103.77053074433657],
 [1.2939684466019417, 103.77080258899677],
@@ -9318,7 +9318,7 @@ var geojson = {
 "shelterWeight": 52.33388427362479,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9349,7 +9349,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.293890776699029, 103.77112621359224],
 [1.2943567961165048, 103.77088025889968]]
@@ -9362,7 +9362,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2935930420711974, 103.77214886731392],
 [1.2939425566343041, 103.77231715210357],
@@ -9379,7 +9379,7 @@ var geojson = {
 "shelterWeight": 64.63434678183033,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Temasek Hall": {
@@ -9390,7 +9390,7 @@ var geojson = {
 "shelterWeight": 99.31476035469619,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Kent Ridge Guild House": {
@@ -9401,7 +9401,7 @@ var geojson = {
 "shelterWeight": 102.94037142091817,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -9432,7 +9432,7 @@ var geojson = {
 "shelterWeight": 64.63434678183033,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Temasek Hall": {
@@ -9443,7 +9443,7 @@ var geojson = {
 "shelterWeight": 115.32155271449867,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2933082524271844, 103.7718640776699]]
 },
@@ -9455,7 +9455,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -9486,7 +9486,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2945768608414239, 103.77380582524272],
 [1.2949263754045308, 103.77353398058253],
@@ -9506,7 +9506,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2941885113268607, 103.77367637540453],
 [1.2945250809061488, 103.77332686084144],
@@ -9527,7 +9527,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2945250809061488, 103.7739223300971],
 [1.2948875404530744, 103.77363754045308],
@@ -9549,7 +9549,7 @@ var geojson = {
 "shelterWeight": 95.06054719819343,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": [
 [1.2945121359223302, 103.77390291262137],
 [1.2948033980582525, 103.77376699029126]]
@@ -9562,7 +9562,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "COM2": {
@@ -9573,7 +9573,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9604,7 +9604,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.292764563106796, 103.77480258899676],
 [1.292156148867314, 103.77446601941747],
@@ -9625,7 +9625,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2936836569579289, 103.77526860841425],
 [1.2938260517799354, 103.77563106796117]]
@@ -9638,7 +9638,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9669,7 +9669,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2926739482200647, 103.77495792880259],
 [1.2921173139158577, 103.7745436893204],
@@ -9691,7 +9691,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2935800970873788, 103.77541100323626],
 [1.2935930420711974, 103.77570873786408]]
@@ -9704,7 +9704,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Kent Ridge Hall": {
@@ -9715,7 +9715,7 @@ var geojson = {
 "shelterWeight": 179.79282860130127,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":      [],
+"imageLinks":       [],
 "smoothRoute": []
 }
 },
@@ -9746,7 +9746,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2938260517799354, 103.77563106796117],
 [1.2936836569579289, 103.77526860841425]]
@@ -9759,7 +9759,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "House 12 Busstop": {
@@ -9770,7 +9770,7 @@ var geojson = {
 "shelterWeight": 33.254275218892246,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9801,7 +9801,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": [
 [1.2935930420711974, 103.77570873786408],
 [1.2935800970873788, 103.77541100323626]]
@@ -9814,7 +9814,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "Opp House 12 Busstop": {
@@ -9825,7 +9825,7 @@ var geojson = {
 "shelterWeight": 33.254275218892246,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9856,7 +9856,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "PGP Terminal Busstop": {
@@ -9867,7 +9867,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "Bet House 14 & 15 Busstop": {
@@ -9878,7 +9878,7 @@ var geojson = {
 "shelterWeight": 28.787055016190763,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9909,7 +9909,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "PGP Terminal Busstop": {
@@ -9920,7 +9920,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":         [],
+"imageLinks":          [],
 "smoothRoute": []
 },
 "House 7 Busstop": {
@@ -9931,7 +9931,7 @@ var geojson = {
 "shelterWeight": 28.787055016190763,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -9962,7 +9962,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2943826860841423, 103.78489751887811],
 [1.296479773462783, 103.7834476806904]]
@@ -9975,7 +9975,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": []
 },
 "PGP Terminal Busstop": {
@@ -9986,7 +9986,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.2932888349514564, 103.78506796116505],
 [1.2915412621359224, 103.78347572815535],
@@ -10023,7 +10023,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2942532362459547, 103.78474217907228]]
 },
@@ -10035,7 +10035,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": [
 [1.2932888349514564, 103.78481553398059],
 [1.2916966019417475, 103.7833009708738],
@@ -10053,7 +10053,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":        [],
+"imageLinks":         [],
 "smoothRoute": []
 },
 "NUH Medical Centre": {
@@ -10064,7 +10064,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Kent Ridge MRT": {
@@ -10075,7 +10075,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -10106,7 +10106,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2942532362459547, 103.78474217907228]]
 },
@@ -10118,7 +10118,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.2966351132686085, 103.78291693635383],
 [1.2973600323624594, 103.78127292340885]]
@@ -10131,7 +10131,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "National University Center of Oral Health": {
@@ -10142,7 +10142,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 },
 "Opp NUH Busstop": {
@@ -10153,7 +10153,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -10184,7 +10184,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": []
 },
 "Opp Kent Ridge MRT Station Busstop": {
@@ -10195,7 +10195,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":          [],
+"imageLinks":           [],
 "smoothRoute": [
 [1.296479773462783, 103.7834476806904],
 [1.2943826860841423, 103.78489751887811]]
@@ -10208,7 +10208,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":       [],
+"imageLinks":        [],
 "smoothRoute": []
 }
 },
@@ -10239,7 +10239,7 @@ var geojson = {
 "shelterWeight": 0.0,
 "shelterMultiplier": 0.0,
 "directions": Data yet to be collected,
-"imageLinks":     [],
+"imageLinks":      [],
 "smoothRoute": [
 [1.3037759136866418, 103.77467822934501],
 [1.3037563161527377, 103.77429607743387],
@@ -10253,7 +10253,7 @@ var geojson = {
 "shelterWeight": 899.7515691939877,
 "shelterMultiplier": 1.0,
 "directions": Data yet to be collected,
-"imageLinks":  [],
+"imageLinks":   [],
 "smoothRoute": [
 [1.30373825, 103.7757758125],
 [1.3033866875, 103.7743695625],
