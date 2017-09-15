@@ -349,10 +349,11 @@ public class UIFunction {
 			}
 		}
 	}
+	
 
 	public static void main (String[] args){
 		String geoJsonFile = "abc.txt";
-		outputFileName = "abc.txt";
+		outputFileName = "bcd.txt";
 		//String geoJsonFile = UIFunction.outputFileName;
 		String imageFile = "NusLarge.png";
 		run(geoJsonFile, imageFile);
