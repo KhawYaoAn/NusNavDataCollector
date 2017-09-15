@@ -9,7 +9,6 @@ import java.util.ArrayList;
 
 
 /**
- * this is the most fucking hard coded fuckng piece of shit i will ever fucking do. 
  * @author YewOnn
  *
  */
@@ -59,7 +58,7 @@ public class GeoJsonReader {
 				e.printStackTrace(); 
 			}
 			if(currLine.trim().equals("{")){
-				System.out.println("fucking big problem");
+				System.out.println("big problem");
 			}
 			//type
 			if(currLine.contains("type")){
